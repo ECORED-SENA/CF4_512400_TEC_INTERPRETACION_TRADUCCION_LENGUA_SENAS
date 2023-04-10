@@ -1,11 +1,248 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+    
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Titulo de primer nivel
+      h1 Fundamentos lingüísticos, textuales y discursivos
+    .row.mb-5
+      .col-lg-8.mb-4.mb-lg-0
+        .bloque-texto-d.color-secundario.p-4.mb-4
+          .bloque-texto-d__texto.mb-2
+            i.fas.fa-quote-left
+            h4 La lingüística, llamada también ciencia del lenguaje, glotología o glosología, y con menos propiedad, también filología, filología comparada, gramática comparada, es la ciencia que estudia desde todos los puntos de vista posibles el lenguaje humano articulado, en general y en las formas específicas en las que se realiza.
+            i.fas.fa-quote-right
+          .bloque-texto-d__autor
+            p.mb-0 - Coseriu (1951)
+        .hr1.mb-4
+        p El mismo autor afirma que la lingüística estudia, sin duda, los idiomas, pero no para aprenderlos, es decir, que los estudia científicamente como fenómenos, no como instrumentos.
+      .col-lg-4
+        figure
+          img(src='@/assets/curso/tema3/img1.svg', style="width:450px").m-auto
+    .row.align-items-center.mb-5
+      .col-auto
+        figure
+          img(src='@/assets/curso/tema3/img2.svg', style="width:70px").m-auto
+      .col
+        p.mb-0 El mismo autor afirma que la lingüística estudia, sin duda, los idiomas, pero no para aprenderlos, es decir, que los estudia científicamente como fenómenos, no como instrumentos.
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema3/img1.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 El intérprete como mediador comunicativo y basado en su condición de ser biológico, psicológico y social, requiere poseer conocimientos legales que le permitan desempeñar su rol de manera óptima. Con el fin de que estos respondan a las necesidades de los usuarios del servicio de interpretación, es imperativo que estén siempre fundamentados en una normatividad legal establecida por el estado y que a continuación se alista en orden cronológico.
+    p.mb-5 Estos actos lingüísticos no son idénticos, sino que varían entre los individuos. Una comunidad lingüística requiere que sus signos sean similares, con significados similares para que la comunicación sea posible, es por eso por lo que se puede hablar de actos o identidad lingüísticos de una comunidad (isoglosas como acto lingüístico del mismo territorio o común en el tiempo).
+    .row.mb-4
+      .col-auto.bg-c5
+        h3.mb-0.py-2.px-5 Áreas interdisciplinarias de la lingüística
+    p.mb-5 Es fundamental conocer un poco sobre cada una de las áreas disciplinares que se estudian dentro de la lingüística, para tal fin revise con atención la siguiente información:
+    .row.bg-c10.justify-content-center.mb-5
+      .col-lg-10.d-none.d-lg-block
+        .px-5.py-4
+          ImagenInfografica.color-acento-botones
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/curso/tema3/img3a.svg')
+            .tarjeta.color-acento-botones.p-3(x="0%" y="29%" numero="1")
+              .h5.mb-2 Lingüística aplicada
+              p.mb-0 Se centra en el estudio de los problemas sociales que tienen que ver con el lenguaje.
+            .tarjeta.color-acento-botones.p-3(x="0%" y="51%" numero="2")
+              .h5.mb-2 Lingüística computacional
+              p.mb-0 Aplica los métodos de la inteligencia artificial al tratamiento de cuestiones lingüísticas. Transforma el lenguaje natural a uno computacional.
+            .tarjeta.color-acento-botones.p-3(x="0%" y="74%" numero="3")
+              .h5.mb-2 Lingüística contrastiva
+              p.mb-0 Describe en detalle las diferencias y similitudes entre dos o más lenguas tomando en cuenta el nivel fonológico, morfológico y sintáctico.
+            .tarjeta.color-acento-botones.p-3(x="100%" y="29%" numero="4")
+              .h5.mb-2 Lingüística comparada
+              p.mb-0 Estudia las relaciones entre dos o más lenguas.
+            .tarjeta.color-acento-botones.p-3(x="100%" y="51%" numero="5")
+              .h5.mb-2 Lingüística evolutiva
+              p.mb-0 También conocida como lingüística diacrónica o gramática histórica: estudia los cambios concretos de una lengua tanto en la fonología como en la gramática desde la lingüística histórica.
+            .tarjeta.color-acento-botones.p-3(x="100%" y="74%" numero="6")
+              .h5.mb-2 Lingüística textual
+              p.mb-0 Estudia el texto y está fuertemente relacionada con el análisis del discurso. La lingüística textual deduce que el texto debe trabajar interdisciplinariamente con la sociolingüística, la pragmática, la lógica de predicados, la filosofía y la psicología cognoscitiva. Además, estudia todo el significado contextual, es decir, todo lo que rodea una palabra.
+      .col-lg-10.d-block.d-lg-none
+        .px-5.py-4
+          ImagenInfografica.color-acento-botones
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/curso/tema3/img3b.svg')
+            .tarjeta.color-acento-botones.p-3(x="25%" y="25%" numero="1")
+              .h5.mb-2 Lingüística aplicada
+              p.mb-0 Se centra en el estudio de los problemas sociales que tienen que ver con el lenguaje.
+            .tarjeta.color-acento-botones.p-3(x="25%" y="40%" numero="2")
+              .h5.mb-2 Lingüística computacional
+              p.mb-0 Aplica los métodos de la inteligencia artificial al tratamiento de cuestiones lingüísticas. Transforma el lenguaje natural a uno computacional.
+            .tarjeta.color-acento-botones.p-3(x="25%" y="55%" numero="3")
+              .h5.mb-2 Lingüística contrastiva
+              p.mb-0 Describe en detalle las diferencias y similitudes entre dos o más lenguas tomando en cuenta el nivel fonológico, morfológico y sintáctico.
+            .tarjeta.color-acento-botones.p-3(x="75%" y="25%" numero="4")
+              .h5.mb-2 Lingüística comparada
+              p.mb-0 Estudia las relaciones entre dos o más lenguas.
+            .tarjeta.color-acento-botones.p-3(x="75%" y="40%" numero="5")
+              .h5.mb-2 Lingüística evolutiva
+              p.mb-0 También conocida como lingüística diacrónica o gramática histórica: estudia los cambios concretos de una lengua tanto en la fonología como en la gramática desde la lingüística histórica.
+            .tarjeta.color-acento-botones.p-3(x="75%" y="55%" numero="6")
+              .h5.mb-2 Lingüística textual
+              p.mb-0 Estudia el texto y está fuertemente relacionada con el análisis del discurso. La lingüística textual deduce que el texto debe trabajar interdisciplinariamente con la sociolingüística, la pragmática, la lógica de predicados, la filosofía y la psicología cognoscitiva. Además, estudia todo el significado contextual, es decir, todo lo que rodea una palabra.
+    .row.mb-4
+      .col-auto.bg-c5
+        h3.mb-0.py-2.px-5 Estructuras de la lingüística textual
+    .row.mb-5
+      .col-lg-9.mb-4.mb-lg-0
+        p El lingüista holandés. Van Dijk (2005), #[span.txt-c1 planteó contemplar un texto desde tres perspectivas: una general organizativa, llamada superestructura; otra global de carácter jerárquico y funcional, llamada macroestructura] (sujeta a la estructura anterior); y la microestructura, lo más básico, pero no menos importante. Un buen ejemplo es un edificio: la construcción es la superestructura; cada piso, ordenado jerárquicamente, son las macroestructuras; y los tabiques, vigas y demás elementos unidos por los remaches y el concreto (los enlaces que dan cohesión) son las microestructuras.
+        .cajon.color-primario.p-4
+          .row.align-items-start
+            .col-12.col-lg-auto.mb-4.mb-lg-0
+              figure
+                img(src='@/assets/curso/tema3/img4.svg', style="width:80px").m-auto
+            .col
+              p La vida diaria está rodeada de textos sean orales, corporales o escritos. El término textos, procede del latín textus que significa: tejido, textura. Está integrado por unidades lingüísticas, llamadas oraciones, que están interrelacionadas a través de los referentes y los conectores lógicos. Todo esto quiere decir, que un texto no es una simple reunión de oraciones. Es todo un entramado de ideas o, en otras palabras, una estructura.
+              p.mb-0 #[span.txt-c1 Se invita a conocer con más a detalle en qué consisten cada una de las estructuras de la lingüística textual:]
+      .col-lg-3
+        figure
+          img(src='@/assets/curso/tema3/img2.png', style="width:290px").m-auto
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        ImagenInfografica.color-acento-botones.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/tema3/img3.png')
+          .tarjeta.color-acento-botones.p-3(x="23%" y="55%" numero="1")
+            p.mb-0 Es la estructura formal que representa las partes en que se organiza el contenido de un texto. Es el esqueleto reconocible que caracteriza un género discursivo, estructura la información: organiza las secuencias de frases y les asigna una función específica en la comunicación. Las frases de un texto se organizan en un esquema constituido por categorías funcionales, unas opcionales y otras obligatorias.
+          .tarjeta.color-acento-botones.p-3(x="50%" y="50%" numero="2")
+            p.mb-0 Es el contenido semántico global que representa el sentido de un texto. Para que un texto se perciba como una unidad de comunicación, debe poseer un significado, es decir, el asunto del que trata o el tema. La macroestructura textual es un concepto cercano al tema o asunto del texto. Por tal motivo, el texto debe cumplir la condición de coherencia global de su significado.
+          .tarjeta.color-acento-botones.p-3(x="77%" y="55%" numero="3")
+            p.mb-0 Es cada una de las ideas principales o proposiciones que, relacionadas entre sí semánticamente, logran dar soporte a la idea general en un texto, construirlo, darle sentido y hacerlo coherente. Para construirlas se necesita crear nexos entre las proposiciones, preferiblemente léxicas, causales o referenciales. Primero hay que generar las proposiciones, y segundo, cohesionarlas.
+    .row.mb-4
+      .col-auto.bg-c5
+        h3.mb-0.py-2.px-5 Análisis del discurso
+    p Algunos autores consideran que el texto y el discurso son sinónimos, mientras que otros, que son términos que se complementan. Así que el texto es una unidad comunicativa y el discurso incluye una serie de textos relevantes en una situación comunicativa. 
+    p.mb-4 Aunque la lingüística textual estudia el texto y está fuertemente relacionada con el análisis del discurso, este último mantiene un enfoque diferente.
+    .row.mb-5
+      .col-lg-4.mb-4.mb-lg-0
+        figure
+          img(src='@/assets/curso/tema3/img4.png', style="width:400px").m-auto
+      .col-lg-8
+        .bloque-texto-c.color-acento-botones.p-4.mb-3
+          i.fas.fa-quote-right
+          p.my-2 #[b El discurso se define, grosso modo, como el uso de la oración, es decir, la manera como se coloca en el uso comunicativo al realizar acciones del texto.]
+          span.d-flex.justify-content-end.mb-3 - Bernal, (1985)
+        p Un discurso debe incluir las siguientes características:
+        ul.lista-ul
+          li.mb-0
+            i.lista-ul__vineta
+            | #[b Cohesión]: las proposiciones han de conectarse según las reglas de una determinada lengua.
+          li.mb-0
+            i.lista-ul__vineta
+            | #[b Coherencia]: los enunciados que forman un texto se refieren a la misma realidad. Cuando la oración no tiene significado alguno, no aporta información ni suma en nada o bien está fuera de contexto.
+          li.mb-0
+            i.lista-ul__vineta
+            | #[b Informatividad]: aporta información nueva.
+    .row.mb-4
+      .col-auto.bg-c5
+        h3.mb-0.py-2.px-5 Tipología discursiva
+    p.mb-5 La tipología discursiva se refiere a la forma de organizar los diversos textos en un discurso y clasificarlos. Existen infinidad de clasificaciones, dependiendo de la intención, la trama, estructura, entre otros aspectos. La clasificación más común es la distinción entre narración, descripción, argumentación, explicación y diálogo, como se muestra a continuación:
+    TabsB.color-acento-contenido
+      .py-4.py-md-5(titulo="¿Qué pasa?" :icono="require('@/assets/curso/tema3/img5.svg')")
+        .row.justify-content-center
+          .col-lg-7.mb-4.mb-lg-0
+            ul.lista-ul
+              li.mb-0
+                i.lista-ul__vineta
+                | #[b Intención comunicativa]: relata o narra los hechos que le suceden a los personajes. Puede ser real o ficticio, con un lugar, estructura y tiempo concretos.
+              li.mb-0
+                i.lista-ul__vineta
+                | #[b Responde a]: ¿qué pasa?
+              li.mb-0
+                i.lista-ul__vineta
+                | #[b Estructura]: planteamiento, nudo y desenlace.
+              li.mb-0
+                i.lista-ul__vineta
+                | #[b Ejemplos]: noticias, novelas, historias, mitos, fábulas, chistes, memoria, crónica, anécdota, reportaje.
+          .col-lg-4
+            figure
+              img(src='@/assets/curso/tema3/img5.png', style="width:400px").m-auto
+      .py-4.py-md-5(titulo="¿Cómo es?" :icono="require('@/assets/curso/tema3/img6.svg')")
+        .row.justify-content-center
+          .col-lg-7.mb-4.mb-lg-0
+            ul.lista-ul
+              li.mb-0
+                i.lista-ul__vineta
+                | #[b Intención comunicativa]: cuenta cómo son los objetos, personas, sucesos, lugares, animales, sentimientos, acciones, entre otros. Se resalta el género, altura, color, distancia, temperatura, olor, etc.
+              li.mb-0
+                i.lista-ul__vineta
+                | #[b Responde a]: ¿cómo es?
+              li.mb-0
+                i.lista-ul__vineta
+                | #[b Estructura]: lineal (presentación del tema, caracterización del tema o personaje, propósito). Circular (textos de ficción, se altera el tiempo y el espacio).
+              li.mb-0
+                i.lista-ul__vineta
+                | #[b Ejemplos]: cuentos, novelas, diarios, cartas, prosopografía, topografía, etopeya, retrato, autorretrato, caricatura.
+          .col-lg-4
+            figure
+              img(src='@/assets/curso/tema3/img6.png', style="width:400px").m-auto
+      .py-4.py-md-5(titulo="¿Qué piensa?" :icono="require('@/assets/curso/tema3/img7.svg')")
+        .row.justify-content-center
+          .col-lg-7.mb-4.mb-lg-0
+            ul.lista-ul
+              li.mb-0
+                i.lista-ul__vineta
+                | #[b Intención comunicativa]: transmitir información desde una perspectiva subjetiva. Expresa opiniones y defiende ideas.
+              li.mb-0
+                i.lista-ul__vineta
+                | #[b Responde a]: ¿qué pienso?
+              li.mb-0
+                i.lista-ul__vineta
+                | #[b Estructura]: introducción, tesis (afirmación que se pone en debate), argumentación (ejemplificación, analogía, pregunta retórica, cita de autoridad, entre otros) y conclusión.
+              li.mb-0
+                i.lista-ul__vineta
+                | #[b Ejemplos]: artículos de opinión, críticas de prensa, artículos académicos, discursos o panfletos políticos, ensayos, campañas ecológicas, editoriales de medios, cartas de recomendación, poesía.
+          .col-lg-4
+            figure
+              img(src='@/assets/curso/tema3/img7.png', style="width:400px").m-auto
+      .py-4.py-md-5(titulo="¿Por qué es así?" :icono="require('@/assets/curso/tema3/img8.svg')")
+        .row.justify-content-center
+          .col-lg-7.mb-4.mb-lg-0
+            ul.lista-ul
+              li.mb-0
+                i.lista-ul__vineta
+                | #[b Intención comunicativa]: dar información acerca de algo de forma objetiva, coherente, puntual y clara. Pueden ser divulgativos o especializados, de acuerdo con el público. También se conoce como texto expositivo.
+              li.mb-0
+                i.lista-ul__vineta
+                | #[b Responde a]: ¿por qué es así?
+              li.mb-0
+                i.lista-ul__vineta
+                | #[b Estructura]: presentación / marco, planteamiento del problema (explícito o implícito), respuesta al problema y evaluación conclusiva.
+              li.mb-0
+                i.lista-ul__vineta
+                | #[b Ejemplos]: enciclopedias, libros de texto, artículos de divulgación, instrucciones de uso, reseñas biográficas, fichas bibliográficas, bibliografías, textos jurídicos, informes médicos, recetas.
+          .col-lg-4
+            figure
+              img(src='@/assets/curso/tema3/img8.png', style="width:400px").m-auto
+      .py-4.py-md-5(titulo="¿Qué dicen?" :icono="require('@/assets/curso/tema3/img9.svg')")
+        .row.justify-content-center
+          .col-lg-7.mb-4.mb-lg-0
+            ul.lista-ul
+              li.mb-0
+                i.lista-ul__vineta
+                | #[b Intención comunicativa]: intercambio comunicativo entre dos o más interlocutores. Los papeles de emisor y receptor se intercambian. Reproduce literalmente las palabras del personaje de manera natural. Se utiliza mucho la elipsis y la deixis. Utiliza guiones, acotaciones y comillas.
+              li.mb-0
+                i.lista-ul__vineta
+                | #[b Responde a]: ¿qué dicen?
+              li.mb-0
+                i.lista-ul__vineta
+                | #[b Estructura]: preparación, saludo, introducción, desarrollo (coordinación, interacción) y despedida.
+              li.mb-0
+                i.lista-ul__vineta
+                | #[b Ejemplos]: conversación, diálogos, entrevistas, debates, foros, obra teatral, diálogo literario o cinematográfico, videollamadas, video clase, mesa redonda, tertulia, coloquio.
+          .col-lg-4
+            figure
+              img(src='@/assets/curso/tema3/img9.png', style="width:400px").m-auto
 
 </template>
 

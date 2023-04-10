@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="103" height="103" viewBox="0 0 103 103">
+  <defs>
+    <filter id="Rectángulo_344349" x="0" y="0" width="103" height="103" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_344354" data-name="Rectángulo 344354" width="49" height="48" transform="translate(295.799 5772.914)" fill="#12263f"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1003708" data-name="Grupo 1003708" transform="translate(-276 -6174)">
+    <g transform="matrix(1, 0, 0, 1, 276, 6174)" filter="url(#Rectángulo_344349)">
+      <rect id="Rectángulo_344349-2" data-name="Rectángulo 344349" width="85" height="85" rx="11" transform="translate(9 6)" fill="#4db1f0"/>
+    </g>
+    <g id="Enmascarar_grupo_83" data-name="Enmascarar grupo 83" transform="translate(7.201 425.087)" clip-path="url(#clip-path)">
+      <path id="cambiar-tamano-expandir" d="M23.633,33.2,10.983,45.872v-3.8a2.391,2.391,0,1,0-4.783,0v9.565a2.428,2.428,0,0,0,2.391,2.391h9.565a2.391,2.391,0,1,0,0-4.783h-3.8l12.674-12.65a2.4,2.4,0,0,0-3.4-3.4ZM14.354,10.983h3.8a2.391,2.391,0,0,0,0-4.783H8.591A2.428,2.428,0,0,0,6.2,8.591v9.565a2.391,2.391,0,0,0,4.783,0v-3.8l12.65,12.674a2.4,2.4,0,1,0,3.4-3.4Zm37.281,28.7a2.391,2.391,0,0,0-2.391,2.391v3.8L36.594,33.2a2.4,2.4,0,0,0-3.4,3.4l12.674,12.65h-3.8a2.391,2.391,0,1,0,0,4.783h9.565a2.428,2.428,0,0,0,2.391-2.391V42.07A2.391,2.391,0,0,0,51.635,39.679Zm2.2-32a2.428,2.428,0,0,0-2.2-1.483H42.07a2.391,2.391,0,1,0,0,4.783h3.8L33.2,23.633a2.4,2.4,0,1,0,3.4,3.4l12.65-12.674v3.8a2.391,2.391,0,1,0,4.783,0V8.591A2.391,2.391,0,0,0,53.835,7.683Z" transform="translate(290.186 5766.8)" fill="#12263f"/>
+    </g>
+  </g>
+</svg>

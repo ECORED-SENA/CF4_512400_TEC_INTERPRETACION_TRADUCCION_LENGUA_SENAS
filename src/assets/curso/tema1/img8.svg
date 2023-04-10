@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="169" height="169" viewBox="0 0 169 169">
+  <defs>
+    <filter id="Trazado_699426" x="0" y="0" width="169" height="169" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_344224" data-name="Rectángulo 344224" width="92.509" height="90.796" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_896807" data-name="Grupo 896807" transform="translate(5873 9365)">
+    <g transform="matrix(1, 0, 0, 1, -5873, -9365)" filter="url(#Trazado_699426)">
+      <path id="Trazado_699426-2" data-name="Trazado 699426" d="M75.5,0A75.5,75.5,0,1,1,0,75.5,75.5,75.5,0,0,1,75.5,0Z" transform="translate(9 6)" fill="#0098e8"/>
+    </g>
+    <g id="Enmascarar_grupo_69" data-name="Enmascarar grupo 69" transform="translate(-5833.19 -9330.897)" clip-path="url(#clip-path)">
+      <g id="Page-1" transform="translate(1.626)">
+        <g id="_025---Equipment" data-name="025---Equipment">
+          <path id="Shape" d="M24.895,21.545a1.539,1.539,0,0,1-1.539-1.539V1.539a1.539,1.539,0,1,1,3.078,0V20.006A1.539,1.539,0,0,1,24.895,21.545Z" transform="translate(16.656)" fill="#a5a5a4"/>
+          <path id="Shape-2" data-name="Shape" d="M35.152,22.45l-7.695,3.078L19.763,22.45l1.154-8.125a3.093,3.093,0,0,1,3.047-2.647h6.987A3.093,3.093,0,0,1,34,14.325Z" transform="translate(14.093 8.328)" fill="#bdc3c7"/>
+          <path id="Rectangle-path" d="M22.458,41.322h6.156V56.711H22.458Z" transform="translate(16.015 29.468)" fill="#7f8c8d"/>
+          <path id="Shape-3" data-name="Shape" d="M41.69,33.237V45.549a3.087,3.087,0,0,1-3.078,3.078H20.146a3.087,3.087,0,0,1-3.078-3.078V33.237Z" transform="translate(12.172 23.703)" fill="#b0d3f0"/>
+          <path id="Shape-4" data-name="Shape" d="M41.69,21.044V37.972H17.068V21.044a3.087,3.087,0,0,1,3.078-3.078H38.613A3.087,3.087,0,0,1,41.69,21.044Z" transform="translate(12.172 12.812)" fill="#84b5cb"/>
+          <rect id="Rectangle-path-2" data-name="Rectangle-path" width="24.623" height="6.156" rx="0.898" transform="translate(29.239 84.64)" fill="#bdc3c7"/>
+          <path id="Rectangle-path-3" data-name="Rectangle-path" d="M17.068,29.644H41.69V35.8H17.068Z" transform="translate(12.172 21.14)" fill="#4482c3"/>
+          <path id="Rectangle-path-4" data-name="Rectangle-path" d="M23.356,33.237h3.078V48.626H23.356Z" transform="translate(16.656 23.703)" fill="#285680"/>
+          <path id="Rectangle-path-5" data-name="Rectangle-path" d="M2.695,2.695H19.623V47.323H2.695Z" transform="translate(1.922 1.922)" fill="#727997"/>
+          <path id="Shape-5" data-name="Shape" d="M19.623,25.153V64.395a8.464,8.464,0,1,1-16.928,0V25.153Z" transform="translate(1.922 17.937)" fill="#ed9aa9"/>
+          <path id="Shape-6" data-name="Shape" d="M26.162,5.515a4.617,4.617,0,0,1-4.617,4.617H4.617A4.617,4.617,0,1,1,4.617.9H21.545A4.617,4.617,0,0,1,26.162,5.515Z" transform="translate(0 0.641)" fill="#636363"/>
+          <path id="Shape-7" data-name="Shape" d="M9.237,54.149A3.847,3.847,0,0,1,5.39,50.3V46.454a1.539,1.539,0,1,1,3.078,0V50.3a.769.769,0,0,0,.769.769,1.539,1.539,0,1,1,0,3.078Z" transform="translate(3.844 32.03)" fill="#fff"/>
+          <path id="Shape-8" data-name="Shape" d="M63.633,45.814v7.695a4.617,4.617,0,0,1-4.617,4.617H40.549a4.617,4.617,0,0,1-4.617-4.617V45.814Z" transform="translate(25.624 32.671)" fill="#f29c1f"/>
+          <path id="Shape-9" data-name="Shape" d="M63.633,30.789v5.386h-27.7V30.789a11.594,11.594,0,0,1,2.308-6.925,11.594,11.594,0,0,0,2.308-6.925v-.769H59.016v.769a11.594,11.594,0,0,0,2.308,6.925A11.594,11.594,0,0,1,63.633,30.789Z" transform="translate(25.624 11.531)" fill="#f29c1f"/>
+          <path id="Shape-10" data-name="Shape" d="M61.456,15.4v3.078a1.465,1.465,0,0,1-1.37,1.539H38.2a1.465,1.465,0,0,1-1.37-1.539V15.4a4.377,4.377,0,0,1,4.109-4.617h16.4A4.377,4.377,0,0,1,61.456,15.4Z" transform="translate(26.262 7.687)" fill="#ecf0f1"/>
+          <path id="Rectangle-path-6" data-name="Rectangle-path" d="M35.932,27.847h27.7V58.626h-27.7Z" transform="translate(25.624 19.859)" fill="#ecf0f1"/>
+          <g id="Grupo_896006" data-name="Grupo 896006" transform="translate(66.173 23.084)">
+            <path id="Shape-11" data-name="Shape" d="M42.6,15.013v3.078H39.525V15.013a1.539,1.539,0,0,1,3.078,0Z" transform="translate(-37.987 -13.475)" fill="#bdc3c7"/>
+            <path id="Shape-12" data-name="Shape" d="M46.2,15.013v3.078H43.119V15.013a1.539,1.539,0,1,1,3.078,0Z" transform="translate(-35.424 -13.475)" fill="#bdc3c7"/>
+            <path id="Shape-13" data-name="Shape" d="M49.79,15.013v3.078H46.712V15.013a1.539,1.539,0,1,1,3.078,0Z" transform="translate(-32.862 -13.475)" fill="#bdc3c7"/>
+            <path id="Shape-14" data-name="Shape" d="M41.7,41.064V50.3H38.627V41.064a1.539,1.539,0,1,1,3.078,0Z" transform="translate(-38.627 5.103)" fill="#bdc3c7"/>
+            <path id="Shape-15" data-name="Shape" d="M41.7,27.847V43.237a1.539,1.539,0,0,1-3.078,0V27.847Z" transform="translate(-38.627 -3.225)" fill="#bdc3c7"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
