@@ -144,6 +144,7 @@
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/k9mW_2S0g0M" title="Dificultades dentro del proceso de interpretación" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Dificultades dentro del proceso de interpretación.
     .row.mb-4
       .col-auto.bg-c5
         h3.mb-0.py-2.px-5 Protocolos de etiquetas
