@@ -33,14 +33,14 @@ export default {
       },
       {
         nombreRuta: 'introduccion',
-        icono: 'fas fa-info',
+        icono: 'fas fa-info-circle',
         titulo: 'Introducción',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
         numero: '1',
+        icono: 'fas fa-play-circle',
         titulo: 'La interpretación',
         desarrolloContenidos: true,
       },
@@ -53,13 +53,11 @@ export default {
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '2.1',
             titulo: 'Antecedentes relacionados con la población sorda',
             hash: 't_2_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.2',
             titulo: 'Técnicas de búsqueda de información',
             hash: 't_2_2',
@@ -101,6 +99,11 @@ export default {
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
+      /*{
+        icono: 'far fa-file-pdf',
+        titulo: 'Descargar PDF',
+        download: 'downloads/anexo1.pdf',
+      },*/
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
@@ -115,133 +118,159 @@ export default {
   },
   referencias: [
     {
+      referencia: 'ACNUR, U. (2020). Grupos minoritarios.',
+      link: 'https://www.acnur.org/grupos-minoritarios.html',
+    },
+    {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Congreso de Colombia. (1994). Ley 115 de 1994. Por la cual se expide la Ley General de Educación. Febrero 8 de 1994. D.O. 41.214.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.mineducacion.gov.co/1621/articles-85906_archivo_pdf.pdf',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Congreso de Colombia. (1996). Ley 324 de 1996. Por la cual se crean algunas normas a favor de la población sorda. D.O. 42899.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=349',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Congreso de Colombia. (1997). Ley 361 de 1997. Por la cual se establecen mecanismos de integración social de las personas con limitación en situación de discapacidad y se dictan otras disposiciones. D.O. 42.978.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=343#:~:text=-%20El%20presente%20t%C3%ADtulo%20establece%20las,%2C%20analfabetismo%2C%20limitación%20o%20enfermedad',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Congreso de Colombia. (2002). Ley 762 de 2002. Por medio de la cual se aprueba la "Convención Interamericana para la Eliminación de todas las Formas de Discriminación contra las Personas con Discapacidad", suscrita en la ciudad de Guatemala, Guatemala, el siete (7) de junio de mil novecientos noventa y nueve (1999). D.O. 44.889',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=8797#:~:text=%22Por%20medio%20de%20la%20cual,y%20nueve%20(1999)%22',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'Jiménez, A. (2002). Variedades de interpretación: modalidades y tipos. <em>Hermeneus: Revista de la Facultad de Traducción e Interpretación de Soria</em>, (4), 95-114.',
+      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=290509',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Méndez, R. (2010). Figura del intérprete de lengua de signos en educación. <em>Revista Digital para Profesionales de la Enseñanza.</em>',
+      link: 'https://www.feandalucia.ccoo.es/docu/p5sd7181.pdf',
+    },
+    {
+      referencia:
+        'Oviedo, A. (2001). <em>Sobre lingüística, lengua de señas, y este libro</em>. Universidad del Valle - Insor.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://lenguasdecolombia.caroycuervo.gov.co/contenido/Lenguas-de-senas-colombiana/Resena/contenido/93&',
+    },
+    {
+      referencia:
+        'Pérez de la Fuente, O. (2016). Las personas sordas como minoría cultural y lingüística. <em>Dilemata</em>, 6(15), 267-287.',
+      link: 'https://dialnet.unirioja.es/descarga/articulo/4834536.pdf',
+    },
+    {
+      referencia:
+        'Presidencia de Colombia. (1997). Decreto 2369 de 1997. Por medio del cual se reglamenta parcialmente la Ley 324 de 1996. D.O. 43137.',
+      link:
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Decreto-2369-de-1997.pdf',
+    },
+    {
+      referencia:
+        'Rodríguez, M., y Velásquez, R. (2000). Historia y gramática de la lengua de señas. <em>Pedagogía y Saberes</em>, (14), 91-104.',
+      link:
+        'https://doi.org/10.17227/01212494.14pys91.104. https://revistas.pedagogica.edu.co/index.php/PYS/article/view/6242',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Cultura',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'conjunto de conocimientos, ideas, tradiciones y costumbres de un pueblo o grupo de personas.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Discapacidad',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'resulta de la interacción entre las personas con deficiencias y las barreras debidas a la actitud y al entorno que evitan su participación plena y efectiva en la sociedad, en igualdad de condiciones con las demás.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Grupos minoritarios ',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'grupos étnicos, religiosos o lingüísticos, en menor número que el resto de la población. Los pueblos indígenas poseían tierras antes de ser invadidas y colonizadas (Acnur, Agencia de la ONU para los refugiados, 2020).',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Inclusión',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'enfoque que responde positivamente a la diversidad de las personas y a las diferencias individuales, entendiendo que la diversidad no es un problema, sino una oportunidad para el enriquecimiento de la sociedad, a través de la activa participación en la vida familiar, en la educación, en el trabajo y en general en todos los procesos sociales, culturales y en las comunidades.',
     },
     {
-      termino: 'Moda',
+      termino: '<em>Input</em>',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'información de entrada, conjunto de datos introducidos en un sistema informático.',
     },
     {
-      termino: 'Diseña',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'DIseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+      termino: '<em>Output</em>',
+      significado: 'información de salida, información ya procesada.',
     },
   ],
   complementario: [
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema:
+        'Lineamientos normativos de interpretación, traducción y discapacidad ',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Presidencia de la República de Colombia. (1997). Decreto 2369 de 1997. Por el cual se reglamenta parcialmente la Ley 324 de 1996. D.O. 43137.',
+      tipo: 'PDF',
+      link:
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Decreto-2369-de-1997.pdf',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema:
+        'Lineamientos normativos de interpretación, traducción y discapacidad ',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Congreso de Colombia. (2005). Ley 982 de 2005. Por la cual se establecen normas tendientes a la equiparación de oportunidades para las personas sordas y sordociegas y se dictan otras disposiciones. 2 de agosto de 2005. D.O. 45995.',
+      tipo: 'PDF',
+      link: 'https://www.youtube.com/watch?v=-zCQNv_PM3M',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema:
+        'Lineamientos normativos de interpretación, traducción y discapacidad ',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Congreso de Colombia. (2013). Ley Estatutaria 1618 de 2013. Por medio de la cual se establecen las disposiciones para garantizar el pleno ejercicio de los derechos de las personas con discapacidad. febrero 27 de 2013. D.O. 48.717.',
+      tipo: 'PDF',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=52081',
+    },
+
+    {
+      tema:
+        'Lineamientos normativos de interpretación, traducción y discapacidad ',
+      referencia:
+        'Alcaldía Local de Engativá. (2018). Resolución 496 de 2018. Por la cual se reglamenta el artículo 7° de la Ley 972 de 2005 y se implementa la evaluación Nacional de intérpretes de Lengua de Señas Colombiana –ENILSCE- y el Registro Nacional de Lengua de Señas Colombiana -español y guías intérpretes (RENI).',
+      tipo: 'PDF',
+      link:
+        'http://www.gobiernobogota.gov.co/sgdapp/sites/default/files/normograma/RESOLUCION%20496-2018%20ISABEL%20MONTERO%2008-06-2018.pdf',
+    },
+    {
+      tema:
+        'Lineamientos normativos de interpretación, traducción y discapacidad ',
+      referencia:
+        'Unidad para la atención de las víctimas, Ministerio de justicia. Ministerio de Salud. (2016). <em>Guía de atención a las personas con discapacidad en el acceso a la justicia.</em>',
+      tipo: 'PDF',
+      link:
+        'https://escuelajudicial.ramajudicial.gov.co/sites/default/files/guia_de_atencion_a_las_personas_con_discapacidad_en_el_acceso_a_la_justicia__0.pdf',
+    },
+    {
+      tema: 'Fundamentos lingüísticos, textuales y discursivos',
+      referencia:
+        'Barreto, A., y Heredia, S. (2012). El uso del software de transcripción lingüística ELAN en el análisis de la interpretación de lengua de señas colombiana en el contexto universitario. <em>Mutatis Mutandis: Revista Latinoamericana de Traducción, 5(2), 295-319.</em>',
+      tipo: 'PDF',
+      link:
+        'https://revistas.udea.edu.co/index.php/mutatismutandis/article/view/13066/12452',
+    },
+    {
+      tema: 'Fundamentos lingüísticos, textuales y discursivos',
+      referencia:
+        'Pérez de la Fuente, O. (2016). Las personas sordas como minoría cultural y lingüística. Dilemata, (15), 267-287.',
+      tipo: 'PDF',
+      link:
+        'https://www.dilemata.net/revista/index.php/dilemata/article/view/308',
     },
   ],
   creditos: [
@@ -301,6 +330,11 @@ export default {
           cargo: 'Asesora Metodológica',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
+        {
+          nombre: 'José Gabriel Ortiz Abella ',
+          cargo: 'Corrector de estilo ',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
       ],
     },
     {
@@ -319,8 +353,20 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Wilson Andrés Arenales Cáceres',
+          cargo: 'Storyboard e ilustración',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Carmen Alicia Martínez Torres',
           cargo: 'Animador y Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Emilsen Alfonso Bautista',
+          cargo: 'Actividad didáctica',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -330,13 +376,13 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
+          nombre: 'Zuleidy María Ruíz Torres',
           cargo: 'Validación y vinculación en plataforma LMS',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre validador',
+          nombre: 'Daniel Ricardo Mutis',
           cargo: 'Validación de contenidos accesibles',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',

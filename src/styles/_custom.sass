@@ -139,6 +139,9 @@
 .bloque-texto-d
   border-top: 0px
 
+.txt-color-primario
+  color: #005B8B
+
 .hr1
   border-bottom: 3px solid #005B8B
 
@@ -155,6 +158,32 @@
 .tabs-b__tab__icon
   width: 70px
   margin-bottom: 0px
+
+.btn-titulo-info
+  position: relative
+  display: inline-block
+  background-color: #0C2F4B
+  color: #fff
+  text-align: center
+  padding: 10px 28px
+  cursor: pointer
+  border-radius: 20px
+  font-size: 1.1em
+
+
+.btn-titulo-info:before
+  content: ""
+  display: block
+  position: absolute
+  transform: translate(-50%, -50%)
+  width: 0
+  height: 0
+  border-left: 10px solid transparent
+  border-right: 10px solid transparent
+  border-top: 10px solid
+  border-top-color: #0C2F4B
+  left: 50%
+  top: calc(100% + 5px)
 
 .bg
   &-c1
@@ -209,3 +238,10 @@
     background-repeat: repeat-x
     background-size: contain
     background-position: center
+  &-c11
+    position: relative
+    background-image: url(../assets/curso/tema3/img3_bg.svg)
+    background-size: contain
+    background-position: center bottom
+    background-repeat: no-repeat
+

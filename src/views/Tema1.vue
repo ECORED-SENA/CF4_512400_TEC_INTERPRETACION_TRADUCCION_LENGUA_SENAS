@@ -123,16 +123,16 @@
           p(numero="2" titulo="La segmentación") Este es un proceso básico y crucial. Se trata de dividir el mensaje original en diversas unidades de sentido que permita comprenderlas, más no percibirlas. Los intérpretes tienden a ignorar la segmentación impuesta por el discurso y se hacen la suya propia, por ese motivo, la mayoría no espera a que el orador haya terminado una proposición para empezar a interpretar. La segmentación varía dependiendo de las capacidades de retención que tienen cada intérprete, aunque se cree que la máxima cantidad de información que se puede procesar es la que cabe en un máximo de diez segundos, un intervalo que permite que el intérprete se despegue del mensaje original y pueda reformular de manera más natural.
           p(numero="3" titulo="La simultaneidad") Multitasking o división de la atención, en algún momento, el intérprete involucra las siguientes actividades de manera simultánea y precisa:
             ul.lista-ul.mt-3
-              li 
+              li
                 i.lista-ul__vineta
                 | Escucha y recibe el mensaje.
-              li 
+              li
                 i.lista-ul__vineta
                 | Decodifica o entiende el mensaje.
-              li 
+              li
                 i.lista-ul__vineta
                 | Re-codifica o convierte el significado del mensaje en la lengua meta.
-              li 
+              li
                 i.lista-ul__vineta
                 | Emite el mensaje en la lengua meta.
     .row.align-items-center.mb-5
@@ -140,10 +140,10 @@
         figure
           img(src='@/assets/curso/tema1/img10.svg', style="width:70px").m-auto
       .col
-        p.mb-0 El proceso de interpretación se convierte en un problema cuando las tareas superan el límite individual de proceso de la información, y vienen diversas dificultades que hacen más arduo el proceso, aquí se exponen las más comunes.
+        p.mb-0 El proceso de interpretación se convierte en un problema cuando las tareas superan el límite individual de proceso de la información, y vienen diversas dificultades que hacen más arduo el proceso, en el siguiente video se exponen las más comunes.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/k9mW_2S0g0M" title="Dificultades dentro del proceso de interpretación" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.mb-4
       .col-auto.bg-c5
         h3.mb-0.py-2.px-5 Protocolos de etiquetas
@@ -228,7 +228,7 @@
                   .col
                     p.mb-0 Durante años diferentes instituciones y entidades del país han manifestado la necesidad de contar con un código de ética del intérprete de lengua de señas colombiana donde se demuestre el compromiso por cuidar y mantener comportamientos profesionales, saludables y humanos en la prestación del servicio.
               p Hasta el día de hoy, dicho código está en construcción, sin embargo, es necesario enunciar algunos valores que puedan guiar la actitud y la conducta del intérprete para que a través de su trabajo, evite que se comprometa la integridad y la imagen del gremio, estimulando desde la ética, el respeto por los usuarios del servicio de interpretación tanto sordos como oyentes.
-              p.txt-c2.mb-0 El código de ética del intérprete debe contemplar los siguientes aspectos: 
+              p.txt-c2.mb-0 El código de ética del intérprete debe contemplar los siguientes aspectos:
             .col-lg-3
               figure
                 img(src='@/assets/curso/tema1/img16.svg', style="width:450px").m-auto
@@ -242,19 +242,19 @@
                   h3 Enfoque
                   p Hacen referencia al conjunto de normas que orientan la acción de los intérpretes de lengua de señas. Aunque a la fecha están en construcción, estos principios no podrán contradecir lo que está establecido por las leyes reguladoras locales, departamentales o del estado. Dentro de esas normas generales se encuentran:
                   ul.lista-ul
-                    li 
+                    li
                       i.lista-ul__vineta
                       | Requisitos para ser intérprete.
-                    li 
+                    li
                       i.lista-ul__vineta
                       | Principios y valores éticos referidos a la labor del intérprete.
-                    li 
+                    li
                       i.lista-ul__vineta
                       | Código de vestimenta.
-                    li 
+                    li
                       i.lista-ul__vineta
                       | Conductas apropiadas e inapropiadas del intérprete.
-                    li 
+                    li
                       i.lista-ul__vineta
                       | Recomendaciones generales para prestar el servicio de interpretación.
                 div(x="30%" y="40%" tooltip="Principios del intérprete de LSC" numero="2")
@@ -263,7 +263,7 @@
                 div(x="80%" y="40%" tooltip="Valores del intérprete de LSC" numero="3")
                   h3 Valores del intérprete de LSC
                   p Hacen referencia a las cualidades que se destacan en el intérprete y que lo impulsan a actuar de una u otra manera, forman parte de sus creencias, expresan sus intereses y sentimientos. Algunos expertos han puesto por escrito listados de valores, sin embargo, aquí se nombran algunos que definen los comportamientos de mayor repercusión sobre los intérpretes de LSC: la confidencialidad, la discreción, el respeto, la responsabilidad, la honradez, la solidaridad, la verdad, la paz, la imparcialidad y la modestia.
-  
+
 </template>
 
 <script>

@@ -2,40 +2,30 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
+
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
       h1 Fundamentos lingüísticos, textuales y discursivos
-    .row.mb-5
+    .row.mb-4
       .col-lg-8.mb-4.mb-lg-0
-        .bloque-texto-d.color-secundario.p-4.mb-4
-          .bloque-texto-d__texto.mb-2
-            i.fas.fa-quote-left
-            h4 La lingüística, llamada también ciencia del lenguaje, glotología o glosología, y con menos propiedad, también filología, filología comparada, gramática comparada, es la ciencia que estudia desde todos los puntos de vista posibles el lenguaje humano articulado, en general y en las formas específicas en las que se realiza.
-            i.fas.fa-quote-right
-          .bloque-texto-d__autor
-            p.mb-0 - Coseriu (1951)
-        .hr1.mb-4
+        .cajon.color-primario.p-4.mb-4
+          p De acuerdo con Coseriu (1951), "La lingüística, llamada también ciencia del lenguaje, glotología o glosología, y con menos propiedad, también filología, filología comparada, gramática comparada, es la ciencia que estudia desde todos los puntos de vista posibles el lenguaje humano articulado, en general y en las formas específicas en las que se realiza."
+
         p El mismo autor afirma que la lingüística estudia, sin duda, los idiomas, pero no para aprenderlos, es decir, que los estudia científicamente como fenómenos, no como instrumentos.
-      .col-lg-4
+
+        p.txt-color-primario #[b Mientras que la lingüística investiga cómo se manifiesta el lenguaje en sus diferentes formas históricas, es decir, las lenguas, el lenguaje, por su parte, se define como todo sistema de signos que permite expresar, comunicar ideas, pensamientos y sentimientos. El lenguaje es el acto lingüístico que, a su vez, emplea signos del lenguaje para la comunicación.]
+
+      .col-lg-4.col-md
         figure
-          img(src='@/assets/curso/tema3/img1.svg', style="width:450px").m-auto
+          img(src='@/assets/curso/tema3/img1b.png').m-auto
     .row.align-items-center.mb-5
       .col-auto
         figure
-          img(src='@/assets/curso/tema3/img2.svg', style="width:70px").m-auto
+          img(src='@/assets/curso/tema3/img2.svg').m-auto
       .col
-        p.mb-0 El mismo autor afirma que la lingüística estudia, sin duda, los idiomas, pero no para aprenderlos, es decir, que los estudia científicamente como fenómenos, no como instrumentos.
-    .row.justify-content-center.mb-5
-      .col-lg-10
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema3/img1.png')})`}"
-          )
-          .bloque-texto-g__texto.p-4
-            p.mb-0 El intérprete como mediador comunicativo y basado en su condición de ser biológico, psicológico y social, requiere poseer conocimientos legales que le permitan desempeñar su rol de manera óptima. Con el fin de que estos respondan a las necesidades de los usuarios del servicio de interpretación, es imperativo que estén siempre fundamentados en una normatividad legal establecida por el estado y que a continuación se alista en orden cronológico.
-    p.mb-5 Estos actos lingüísticos no son idénticos, sino que varían entre los individuos. Una comunidad lingüística requiere que sus signos sean similares, con significados similares para que la comunicación sea posible, es por eso por lo que se puede hablar de actos o identidad lingüísticos de una comunidad (isoglosas como acto lingüístico del mismo territorio o común en el tiempo).
+        p.mb-0 Estos actos lingüísticos no son idénticos, sino que varían entre los individuos. Una comunidad lingüística requiere que sus signos sean similares, con significados similares para que la comunicación sea posible, es por eso por lo que se puede hablar de actos o identidad lingüísticos de una comunidad (isoglosas como acto lingüístico del mismo territorio o común en el tiempo).
+
     .row.mb-4
       .col-auto.bg-c5
         h3.mb-0.py-2.px-5 Áreas interdisciplinarias de la lingüística
@@ -46,23 +36,23 @@
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/tema3/img3a.svg')
-            .tarjeta.color-acento-botones.p-3(x="0%" y="29%" numero="1")
+                img(src='@/assets/curso/tema3/img3.svg')
+            .tarjeta.color-acento-botones.p-3(x="3%" y="28%" numero="+")
               .h5.mb-2 Lingüística aplicada
               p.mb-0 Se centra en el estudio de los problemas sociales que tienen que ver con el lenguaje.
-            .tarjeta.color-acento-botones.p-3(x="0%" y="51%" numero="2")
+            .tarjeta.color-acento-botones.p-3(x="3%" y="51%" numero="+")
               .h5.mb-2 Lingüística computacional
               p.mb-0 Aplica los métodos de la inteligencia artificial al tratamiento de cuestiones lingüísticas. Transforma el lenguaje natural a uno computacional.
-            .tarjeta.color-acento-botones.p-3(x="0%" y="74%" numero="3")
+            .tarjeta.color-acento-botones.p-3(x="3%" y="73%" numero="+")
               .h5.mb-2 Lingüística contrastiva
               p.mb-0 Describe en detalle las diferencias y similitudes entre dos o más lenguas tomando en cuenta el nivel fonológico, morfológico y sintáctico.
-            .tarjeta.color-acento-botones.p-3(x="100%" y="29%" numero="4")
+            .tarjeta.color-acento-botones.p-3(x="97%" y="28%" numero="+")
               .h5.mb-2 Lingüística comparada
               p.mb-0 Estudia las relaciones entre dos o más lenguas.
-            .tarjeta.color-acento-botones.p-3(x="100%" y="51%" numero="5")
+            .tarjeta.color-acento-botones.p-3(x="97%" y="51%" numero="+")
               .h5.mb-2 Lingüística evolutiva
               p.mb-0 También conocida como lingüística diacrónica o gramática histórica: estudia los cambios concretos de una lengua tanto en la fonología como en la gramática desde la lingüística histórica.
-            .tarjeta.color-acento-botones.p-3(x="100%" y="74%" numero="6")
+            .tarjeta.color-acento-botones.p-3(x="97%" y="73%" numero="+")
               .h5.mb-2 Lingüística textual
               p.mb-0 Estudia el texto y está fuertemente relacionada con el análisis del discurso. La lingüística textual deduce que el texto debe trabajar interdisciplinariamente con la sociolingüística, la pragmática, la lógica de predicados, la filosofía y la psicología cognoscitiva. Además, estudia todo el significado contextual, es decir, todo lo que rodea una palabra.
       .col-lg-10.d-block.d-lg-none
@@ -71,22 +61,22 @@
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/tema3/img3b.svg')
-            .tarjeta.color-acento-botones.p-3(x="25%" y="25%" numero="1")
+            .tarjeta.color-acento-botones.p-3(x="5%" y="20%" numero="+")
               .h5.mb-2 Lingüística aplicada
               p.mb-0 Se centra en el estudio de los problemas sociales que tienen que ver con el lenguaje.
-            .tarjeta.color-acento-botones.p-3(x="25%" y="40%" numero="2")
+            .tarjeta.color-acento-botones.p-3(x="5%" y="31%" numero="+")
               .h5.mb-2 Lingüística computacional
               p.mb-0 Aplica los métodos de la inteligencia artificial al tratamiento de cuestiones lingüísticas. Transforma el lenguaje natural a uno computacional.
-            .tarjeta.color-acento-botones.p-3(x="25%" y="55%" numero="3")
+            .tarjeta.color-acento-botones.p-3(x="5%" y="42%" numero="+")
               .h5.mb-2 Lingüística contrastiva
               p.mb-0 Describe en detalle las diferencias y similitudes entre dos o más lenguas tomando en cuenta el nivel fonológico, morfológico y sintáctico.
-            .tarjeta.color-acento-botones.p-3(x="75%" y="25%" numero="4")
+            .tarjeta.color-acento-botones.p-3(x="95%" y="20%" numero="+")
               .h5.mb-2 Lingüística comparada
               p.mb-0 Estudia las relaciones entre dos o más lenguas.
-            .tarjeta.color-acento-botones.p-3(x="75%" y="40%" numero="5")
+            .tarjeta.color-acento-botones.p-3(x="95%" y="31%" numero="+")
               .h5.mb-2 Lingüística evolutiva
               p.mb-0 También conocida como lingüística diacrónica o gramática histórica: estudia los cambios concretos de una lengua tanto en la fonología como en la gramática desde la lingüística histórica.
-            .tarjeta.color-acento-botones.p-3(x="75%" y="55%" numero="6")
+            .tarjeta.color-acento-botones.p-3(x="95%" y="42%" numero="+")
               .h5.mb-2 Lingüística textual
               p.mb-0 Estudia el texto y está fuertemente relacionada con el análisis del discurso. La lingüística textual deduce que el texto debe trabajar interdisciplinariamente con la sociolingüística, la pragmática, la lógica de predicados, la filosofía y la psicología cognoscitiva. Además, estudia todo el significado contextual, es decir, todo lo que rodea una palabra.
     .row.mb-4
@@ -95,33 +85,55 @@
     .row.mb-5
       .col-lg-9.mb-4.mb-lg-0
         p El lingüista holandés. Van Dijk (2005), #[span.txt-c1 planteó contemplar un texto desde tres perspectivas: una general organizativa, llamada superestructura; otra global de carácter jerárquico y funcional, llamada macroestructura] (sujeta a la estructura anterior); y la microestructura, lo más básico, pero no menos importante. Un buen ejemplo es un edificio: la construcción es la superestructura; cada piso, ordenado jerárquicamente, son las macroestructuras; y los tabiques, vigas y demás elementos unidos por los remaches y el concreto (los enlaces que dan cohesión) son las microestructuras.
-        .cajon.color-primario.p-4
+        .cajon.color-primario.p-4.mb-4
           .row.align-items-start
             .col-12.col-lg-auto.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/tema3/img4.svg', style="width:80px").m-auto
             .col
               p La vida diaria está rodeada de textos sean orales, corporales o escritos. El término textos, procede del latín textus que significa: tejido, textura. Está integrado por unidades lingüísticas, llamadas oraciones, que están interrelacionadas a través de los referentes y los conectores lógicos. Todo esto quiere decir, que un texto no es una simple reunión de oraciones. Es todo un entramado de ideas o, en otras palabras, una estructura.
-              p.mb-0 #[span.txt-c1 Se invita a conocer con más a detalle en qué consisten cada una de las estructuras de la lingüística textual:]
+        p.mb-0 #[span.txt-c1 Se invita a conocer con más a detalle en qué consisten cada una de las estructuras de la lingüística textual:]
       .col-lg-3
         figure
           img(src='@/assets/curso/tema3/img2.png', style="width:290px").m-auto
     .row.justify-content-center.mb-5
       .col-lg-10
-        ImagenInfografica.color-acento-botones.mb-5
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/curso/tema3/img3.png')
-          .tarjeta.color-acento-botones.p-3(x="23%" y="55%" numero="1")
-            p.mb-0 Es la estructura formal que representa las partes en que se organiza el contenido de un texto. Es el esqueleto reconocible que caracteriza un género discursivo, estructura la información: organiza las secuencias de frases y les asigna una función específica en la comunicación. Las frases de un texto se organizan en un esquema constituido por categorías funcionales, unas opcionales y otras obligatorias.
-          .tarjeta.color-acento-botones.p-3(x="50%" y="50%" numero="2")
-            p.mb-0 Es el contenido semántico global que representa el sentido de un texto. Para que un texto se perciba como una unidad de comunicación, debe poseer un significado, es decir, el asunto del que trata o el tema. La macroestructura textual es un concepto cercano al tema o asunto del texto. Por tal motivo, el texto debe cumplir la condición de coherencia global de su significado.
-          .tarjeta.color-acento-botones.p-3(x="77%" y="55%" numero="3")
-            p.mb-0 Es cada una de las ideas principales o proposiciones que, relacionadas entre sí semánticamente, logran dar soporte a la idea general en un texto, construirlo, darle sentido y hacerlo coherente. Para construirlas se necesita crear nexos entre las proposiciones, preferiblemente léxicas, causales o referenciales. Primero hay que generar las proposiciones, y segundo, cohesionarlas.
+        .bg-c11
+          #img3_descripcion
+            .d-flex.justify-content-center.mb-4
+              .btn-titulo-info
+                span #[b Estructuras de la lingüística textual]
+
+            .row.justify-content-center.mb-5
+              .col-lg-10.col
+                p Es la estructura formal que representa las partes en que se organiza el contenido de un texto. Es el esqueleto reconocible que caracteriza un género discursivo, por su forma habitual y por ello convencional de estructurar la información: organiza las secuencias de frases y les asigna una función específica en la comunicación. Las frases de un texto se organizan en un esquema constituido por categorías funcionales, unas opcionales y otras obligatorias. Es la estructura global que caracteriza el tipo de texto, es independiente del contenido y se refiere más generalmente a la forma como se organiza la información en el texto.
+
+          .d-none.d-lg-block
+            ImagenInfografica.color-acento-botones.mb-5
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/tema3/img3_book.png')
+              .tarjeta.color-acento-botones.p-3(x="23%" y="0%" numero="1")
+                p.mb-0 Es la estructura formal que representa las partes en que se organiza el contenido de un texto. Es el esqueleto reconocible que caracteriza un género discursivo, estructura la información: organiza las secuencias de frases y les asigna una función específica en la comunicación. Las frases de un texto se organizan en un esquema constituido por categorías funcionales, unas opcionales y otras obligatorias.
+              .tarjeta.color-acento-botones.p-3(x="50%" y="-10%" numero="2")
+                p.mb-0 Es el contenido semántico global que representa el sentido de un texto. Para que un texto se perciba como una unidad de comunicación, debe poseer un significado, es decir, el asunto del que trata o el tema. La macroestructura textual es un concepto cercano al tema o asunto del texto. Por tal motivo, el texto debe cumplir la condición de coherencia global de su significado.
+              .tarjeta.color-acento-botones.p-3(x="77%" y="0%" numero="3")
+                p.mb-0 Es cada una de las ideas principales o proposiciones que, relacionadas entre sí semánticamente, logran dar soporte a la idea general en un texto, construirlo, darle sentido y hacerlo coherente. Para construirlas se necesita crear nexos entre las proposiciones, preferiblemente léxicas, causales o referenciales. Primero hay que generar las proposiciones, y segundo, cohesionarlas.
+          .d-block.d-lg-none
+            ImagenInfografica.color-acento-botones.mb-5
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/tema3/img3b_book.png')
+              .tarjeta.color-acento-botones.p-3(x="17%" y="-3%" numero="1")
+                p.mb-0 Es la estructura formal que representa las partes en que se organiza el contenido de un texto. Es el esqueleto reconocible que caracteriza un género discursivo, estructura la información: organiza las secuencias de frases y les asigna una función específica en la comunicación. Las frases de un texto se organizan en un esquema constituido por categorías funcionales, unas opcionales y otras obligatorias.
+              .tarjeta.color-acento-botones.p-3(x="50%" y="-12%" numero="2")
+                p.mb-0 Es el contenido semántico global que representa el sentido de un texto. Para que un texto se perciba como una unidad de comunicación, debe poseer un significado, es decir, el asunto del que trata o el tema. La macroestructura textual es un concepto cercano al tema o asunto del texto. Por tal motivo, el texto debe cumplir la condición de coherencia global de su significado.
+              .tarjeta.color-acento-botones.p-3(x="82%" y="-2%" numero="3")
+                p.mb-0 Es cada una de las ideas principales o proposiciones que, relacionadas entre sí semánticamente, logran dar soporte a la idea general en un texto, construirlo, darle sentido y hacerlo coherente. Para construirlas se necesita crear nexos entre las proposiciones, preferiblemente léxicas, causales o referenciales. Primero hay que generar las proposiciones, y segundo, cohesionarlas.
     .row.mb-4
       .col-auto.bg-c5
         h3.mb-0.py-2.px-5 Análisis del discurso
-    p Algunos autores consideran que el texto y el discurso son sinónimos, mientras que otros, que son términos que se complementan. Así que el texto es una unidad comunicativa y el discurso incluye una serie de textos relevantes en una situación comunicativa. 
+    p Algunos autores consideran que el texto y el discurso son sinónimos, mientras que otros, que son términos que se complementan. Así que el texto es una unidad comunicativa y el discurso incluye una serie de textos relevantes en una situación comunicativa.
     p.mb-4 Aunque la lingüística textual estudia el texto y está fuertemente relacionada con el análisis del discurso, este último mantiene un enfoque diferente.
     .row.mb-5
       .col-lg-4.mb-4.mb-lg-0
@@ -263,4 +275,8 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+#img3_descripcion p
+  font-size: .9em
+  text-align: center
+</style>

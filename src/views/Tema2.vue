@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
+
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
@@ -17,7 +17,7 @@
             .row
               .col-12.mb-4
                 .p-4.bg-c4.shadow-lg
-                  p En Colombia, desde la Constitución Política de 1991, se regularon las leyes que promueven los derechos y garantías de las personas sordas, además del apoyo en la investigación, enseñanza y difusión de la Lengua de Señas Colombiana LSC. A partir de la Ley 324 de 1996, en el artículo 2°, el Estado colombiano reconoce la Lengua de Señas como idioma propio de la comunidad sorda del país, formando a su vez parte del patrimonio lingüístico y cultural según lo establecido en el artículo 2° de la Ley 982 de 2005. 
+                  p En Colombia, desde la Constitución Política de 1991, se regularon las leyes que promueven los derechos y garantías de las personas sordas, además del apoyo en la investigación, enseñanza y difusión de la Lengua de Señas Colombiana LSC. A partir de la Ley 324 de 1996, en el artículo 2°, el Estado colombiano reconoce la Lengua de Señas como idioma propio de la comunidad sorda del país, formando a su vez parte del patrimonio lingüístico y cultural según lo establecido en el artículo 2° de la Ley 982 de 2005.
               p.mb-4.mb-lg-0 En el marco de estos avances normativos se abrieron múltiples posibilidades, entre ellas el acceso de esta población a la educación, lo cual no solo ha permitido su formación, autonomía y progreso como comunidad, sino también ha generado nuevas necesidades en torno a las herramientas y al capital humano, como la figura del intérprete, que acompaña su desarrollo integral en los diferentes entornos de vida.
     Separador
     #t_2_1
@@ -81,16 +81,17 @@
     .row.mb-4
       .col-auto.bg-c5
         h3.mb-0.py-2.px-5 Tipos de búsqueda de información
-    p Existen diferentes formas de buscar la información, a continuación, se identificarán las más comunes.
-    .row.bg-c9.mb-5
-      .col-12.d-none.d-lg-block
-        .px-5.py-4
-          figure
-            img(src='@/assets/curso/tema2/img4a.png', style="width:1050px").m-auto
-      .col-12.d-block.d-lg-none
-        .px-5.py-4
-          figure
-            img(src='@/assets/curso/tema2/img4b.png', style="width:500px").m-auto
+    p.mb-4 Existen diferentes formas de buscar la información, a continuación, se identificarán las más comunes.
+
+    .bg-c9.mb-5.px-5.pb-5
+      .row
+        .col-12.d-none.d-lg-block
+            figure
+              img(src='@/assets/curso/tema2/img4a.png', style="width:1050px").m-auto
+        .col-12.d-block.d-lg-none
+            figure
+              img(src='@/assets/curso/tema2/img4b.png', style="width:500px").m-auto
+
     .row.mb-4
       .col-auto.bg-c5
         h3.mb-0.py-2.px-5 Técnicas de recolección de información
@@ -100,50 +101,51 @@
         img(src='@/assets/curso/tema2/img5.svg' alt='AvatarTop')
         .tarjeta.color-acento-botones
           .p-4
-            h2.text-center Precisar el tema
+            h4.text-center Precisar el tema
             p Se debe definir cuál va a ser objeto de su estudio o investigación. Debido a la cantidad de información que puede existir cuando se inicia una búsqueda, es necesario fijar unos criterios claros, especificar el tópico, el alcance, etc.
       .tarjeta-avatar
         img(src='@/assets/curso/tema2/img6.svg' alt='AvatarTop')
         .tarjeta.color-primario
           .p-4
-            h2.text-center Elegir los términos de búsqueda
+            h4.text-center Elegir los términos de búsqueda
             p En este paso se sugiere utilizar diferentes palabras clave y adecuadas, relacionadas con el tema que se precisan en el paso anterior, lo ideal es buscar términos precisos, claros y coherentes.
       .tarjeta-avatar
         img(src='@/assets/curso/tema2/img7.svg' alt='AvatarTop')
         .tarjeta.color-acento-botones
           .p-4
-            h2.text-center Seleccionar las fuentes de información
+            h4.text-center Seleccionar las fuentes de información
             p Pueden ser fuentes primarias, es decir las que contienen información original de un autor, o secundarias como índices, resúmenes, bibliografías, bases de datos, etc. especializadas en el tema.
       .tarjeta-avatar
         img(src='@/assets/curso/tema2/img8.svg' alt='AvatarTop')
         .tarjeta.color-primario
           .p-4
-            h2.text-center Ejecutar la búsqueda
+            h4.text-center Ejecutar la búsqueda
             p Este paso se inicia con el proceso de indagación de la información, se consultan las fuentes seleccionadas, se toman apuntes, se extraen las ideas principales, se desecha la información que no es útil para el proceso.
       .tarjeta-avatar
         img(src='@/assets/curso/tema2/img9.svg' alt='AvatarTop')
         .tarjeta.color-acento-botones
           .p-4
-            h2.text-center Organizar la información
+            h4.text-center Organizar la información
             p En este paso se obtienen y organizan los documentos que versan sobre el tema, aquí se solicitan, compran, imprimen, etc., la búsqueda de información debe finalizar en este paso en obtener lo que se necesita para poder cumplir con los objetivos propuestos.
     .row.mb-4
       .col-auto.bg-c5
         h3.mb-0.py-2.px-5 Búsqueda de información en internet
     p.mb-5 Existen distintos tipos de buscadores que nos permiten localizar páginas y documentos concretos, conózcalos a continuación:
+
     .row.bg-c10.justify-content-center.mb-5
-      .col-lg-8
+      .col-lg-9
         .px-5.py-4
           ImagenInfograficaB.color-acento-botones.mb-5
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/tema2/img11.svg')
-            div(x="30%" y="43%" tooltip="Motores de búsqueda" numero="1")
+            div(x="42%" y="45%" tooltip="Motores de búsqueda" numero="1")
               h3 Motores de búsqueda
               p Son potentes programas de búsqueda que actúan automáticamente formando enormes bases de datos. Esta búsqueda se hace introduciendo palabras clave.  Por otra parte, resulta difícil encontrar información debido a la gran cantidad de ruido, es decir, resultados que no son del interés, o de silencios, cuando no se encuentran ningún tipo de resultados
-            div(x="40%" y="75%" tooltip="Índices" numero="2")
+            div(x="41%" y="76%" tooltip="Índices" numero="2")
               h3 Índices
               p La diferencia con los motores es que su base de datos se mantiene manualmente, es decir, que la información la incluyen los empleados o los internautas, por lo que es menos extensa.
-            div(x="68%" y="70%" tooltip="Sistemas mixtos" numero="3")
+            div(x="66%" y="73%" tooltip="Sistemas mixtos" numero="3")
               h3 Sistemas mixtos
               p Lo utilizan la mayoría de los buscadores hoy día y permite realizar la búsqueda tanto por palabras clave como por categorías. Algunos ejemplos de los buscadores más utilizados son:  www.google.com, www.yahoo.es, www.alltheweb.com, www.terra.es, www.msn.es, www.altavista.com, www.lycos.es, www.hispanista.com, entre otros.
     .row.mb-4
@@ -158,27 +160,27 @@
             img(src='@/assets/curso/tema2/img13.svg' alt='AvatarTop')
             .tarjeta.color-primario
               .p-4
-                h3.text-center Capacitación flexible y económica.
+                h4.text-center Capacitación flexible y económica.
           .tarjeta-avatar
             img(src='@/assets/curso/tema2/img14.svg' alt='AvatarTop')
             .tarjeta.color-primario
               .p-4
-                h3.text-center Se combina el poder de Internet con el de las herramientas tecnológicas.
+                h4.text-center Se combina el poder de Internet con el de las herramientas tecnológicas.
           .tarjeta-avatar
             img(src='@/assets/curso/tema2/img15.svg' alt='AvatarTop')
             .tarjeta.color-primario
               .p-4
-                h3.text-center Se anulan las distancias geográficas y temporales.
+                h4.text-center Se anulan las distancias geográficas y temporales.
           .tarjeta-avatar
             img(src='@/assets/curso/tema2/img16.svg' alt='AvatarTop')
             .tarjeta.color-primario
               .p-4
-                h3.text-center Pueden utilizarse con mínimos conocimientos.
+                h4.text-center Pueden utilizarse con mínimos conocimientos.
           .tarjeta-avatar
             img(src='@/assets/curso/tema2/img17.svg' alt='AvatarTop')
             .tarjeta.color-primario
               .p-4
-                h3.text-center Ofrecen libertad en cuanto al tiempo y ritmo de aprendizaje.
+                h4.text-center Ofrecen libertad en cuanto al tiempo y ritmo de aprendizaje.
       .col-lg-4
         figure
           img(src='@/assets/curso/tema2/img12.svg', style="width:450px").m-auto
@@ -213,13 +215,13 @@
           img(src='@/assets/curso/tema2/img22.svg' alt='AvatarTop')
           .tarjeta.color-secundario
             .p-4
-              p.text-center.mb-0 #[b Formatos (Windows Media, Real, Quicktime, Synchronized Multimedia Integration Languaje (SMIL)). ]
+              p.text-center.mb-0 #[b Formatos (Windows Media, Real, Quicktime, #[em Synchronized Multimedia Integration Languaje] (SMIL)). ]
     .row.align-items-center.mb-5
       .col-lg-3.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/tema2/img23.svg', style="width:450px").m-auto
       .col-lg-9
-        p Dentro de la búsqueda y selección de la información, es preferible elegir contenidos que sean realizados en formatos accesibles, en caso de requerir compartir la información localizada con personas sordas. También es oportuno conocer las características del material accesible en caso de ser contratado para realizar este tipo de contenidos, pues, generalmente, no son muy conocidos los mínimos para realizar un material accesible y posiblemente se le solicite al intérprete asesoría al respecto. 
+        p Dentro de la búsqueda y selección de la información, es preferible elegir contenidos que sean realizados en formatos accesibles, en caso de requerir compartir la información localizada con personas sordas. También es oportuno conocer las características del material accesible en caso de ser contratado para realizar este tipo de contenidos, pues, generalmente, no son muy conocidos los mínimos para realizar un material accesible y posiblemente se le solicite al intérprete asesoría al respecto.
         p.mb-0 #[span.txt-c2 Algunas características de la información accesible en diferentes formatos son:]
     .row.bg-c10.justify-content-center.mb-5
       .col-lg-11.d-none.d-lg-block
