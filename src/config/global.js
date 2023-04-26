@@ -40,13 +40,11 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        icono: 'fas fa-play-circle',
         titulo: 'La interpretación',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
         numero: '2',
         titulo:
           'Lineamientos normativos de interpretación, traducción y discapacidad',
@@ -66,7 +64,6 @@ export default {
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
         numero: '3',
         titulo: 'Fundamentos lingüísticos, textuales y discursivos',
         desarrolloContenidos: true,

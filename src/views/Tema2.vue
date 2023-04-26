@@ -11,31 +11,31 @@
       .col-12.bg-c7
         .row.align-items-start.justify-content-center
           .col-lg-4
-            figure
+            figure(data-aos="fade-up")
               img(src='@/assets/curso/tema2/img1.svg', style="width:350px").m-auto
           .col-lg-7
             .row
               .col-12.mb-4
                 .p-4.bg-c4.shadow-lg
-                  p En Colombia, desde la Constitución Política de 1991, se regularon las leyes que promueven los derechos y garantías de las personas sordas, además del apoyo en la investigación, enseñanza y difusión de la Lengua de Señas Colombiana LSC. A partir de la Ley 324 de 1996, en el artículo 2°, el Estado colombiano reconoce la Lengua de Señas como idioma propio de la comunidad sorda del país, formando a su vez parte del patrimonio lingüístico y cultural según lo establecido en el artículo 2° de la Ley 982 de 2005.
-              p.mb-4.mb-lg-0 En el marco de estos avances normativos se abrieron múltiples posibilidades, entre ellas el acceso de esta población a la educación, lo cual no solo ha permitido su formación, autonomía y progreso como comunidad, sino también ha generado nuevas necesidades en torno a las herramientas y al capital humano, como la figura del intérprete, que acompaña su desarrollo integral en los diferentes entornos de vida.
+                  p(data-aos="fade-up") En Colombia, desde la Constitución Política de 1991, se regularon las leyes que promueven los derechos y garantías de las personas sordas, además del apoyo en la investigación, enseñanza y difusión de la Lengua de Señas Colombiana LSC. A partir de la Ley 324 de 1996, en el artículo 2°, el Estado colombiano reconoce la Lengua de Señas como idioma propio de la comunidad sorda del país, formando a su vez parte del patrimonio lingüístico y cultural según lo establecido en el artículo 2° de la Ley 982 de 2005.
+              p.mb-4.mb-lg-0(data-aos="fade-up") En el marco de estos avances normativos se abrieron múltiples posibilidades, entre ellas el acceso de esta población a la educación, lo cual no solo ha permitido su formación, autonomía y progreso como comunidad, sino también ha generado nuevas necesidades en torno a las herramientas y al capital humano, como la figura del intérprete, que acompaña su desarrollo integral en los diferentes entornos de vida.
     Separador
     #t_2_1
     .titulo-segundo.color-secundario
-      h2 2.1 Antecedentes relacionados con la población sorda
-    p La historia de los intérpretes de Lengua de Señas en Colombia puede ser tan antigua como la existencia de los sordos en el continente americano. Al tratarse de una comunidad cuya lengua es ágrafa, no hay documentos escritos que cuenten o respalden relatos sobre sus inicios en este país. Los pocos registros que hay están ligados a la educación de los sordos, por lo que los intérpretes empezaron a jugar, desde entonces, un papel importante.
+      h2(data-aos="fade-right") 2.1 Antecedentes relacionados con la población sorda
+    p(data-aos="fade-left") La historia de los intérpretes de Lengua de Señas en Colombia puede ser tan antigua como la existencia de los sordos en el continente americano. Al tratarse de una comunidad cuya lengua es ágrafa, no hay documentos escritos que cuenten o respalden relatos sobre sus inicios en este país. Los pocos registros que hay están ligados a la educación de los sordos, por lo que los intérpretes empezaron a jugar, desde entonces, un papel importante.
     .row.align-items-center.mb-3
       .col-lg-5.mb-4.mb-lg-0
-        figure
+        figure(data-aos="fade-up")
           img(src='@/assets/curso/tema2/img1.png', style="width:500px").m-auto
       .col-lg-7
         .bloque-texto-c.color-secundario.p-4.mb-3
           i.fas.fa-quote-right
-          p.text-white.my-2 No se puede descartar que existieran algunos sistemas de señas en el territorio colombiano antes del arribo de los españoles; ni que algunas personas sordas usuarias de una lengua de señas hubieran llegado entre quienes venían a habitar las colonias.
+          p.text-white.my-2(data-aos="fade-right") No se puede descartar que existieran algunos sistemas de señas en el territorio colombiano antes del arribo de los españoles; ni que algunas personas sordas usuarias de una lengua de señas hubieran llegado entre quienes venían a habitar las colonias.
           span.d-flex.justify-content-end.text-white.mb-3 - Ovideo
-        p.mb-0 Fue solo hasta 1924 cuando algunas comunidades católicas que llegaron de otros lugares iniciaron procesos educativos en Medellín - Colombia con la I.E. Francisco Luis Hernández Betancur (1943) y en Bogotá con la I. E. de Nuestra Señora de la Sabiduría (1924) con métodos oralistas traídos del Congreso de Milán.
-    p.mb-4 De acuerdo con el #[span.txt-c2 Decreto 2369 de 1997, la función principal del intérprete oficial es traducir, al idioma castellano o de este a la lengua de señas colombiana], las comunicaciones que deben efectuar las personas sordas con personas oyentes o la traducción a los sistemas especiales de comunicación utilizados por las personas sordociegas.
-    .row.justify-content-center
+        p.mb-0(data-aos="fade-left") Fue solo hasta 1924 cuando algunas comunidades católicas que llegaron de otros lugares iniciaron procesos educativos en Medellín - Colombia con la I.E. Francisco Luis Hernández Betancur (1943) y en Bogotá con la I. E. de Nuestra Señora de la Sabiduría (1924) con métodos oralistas traídos del Congreso de Milán.
+    p.mb-4(data-aos="fade-up") De acuerdo con el #[span.txt-c2 Decreto 2369 de 1997, la función principal del intérprete oficial es traducir, al idioma castellano o de este a la lengua de señas colombiana], las comunicaciones que deben efectuar las personas sordas con personas oyentes o la traducción a los sistemas especiales de comunicación utilizados por las personas sordociegas.
+    .row.justify-content-center(data-aos="fade-right")
       .col-lg-10
         .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4
           .bloque-texto-g__img(
@@ -60,43 +60,43 @@
     Separador
     #t_2_2
     .titulo-segundo.color-secundario
-      h2 2.2 Técnicas de búsqueda de información
-    p.mb-4 Hoy en día, el uso de las nuevas tecnologías, incluyendo el uso de los dispositivos móviles, se ha vuelto algo normal y cotidiano. Los profesionales se valen de estas herramientas en su práctica diaria y la interpretación no es la excepción. Contar con herramientas tecnológicas a su disposición, técnicas de búsqueda virtuales, recolectar datos y aplicativos para manejo de la información, le pueden facilitar considerablemente la labor y ayudarle a obtener resultados mucho más eficientes.
+      h2(data-aos="fade-right") 2.2 Técnicas de búsqueda de información
+    p.mb-4(data-aos="fade-left") Hoy en día, el uso de las nuevas tecnologías, incluyendo el uso de los dispositivos móviles, se ha vuelto algo normal y cotidiano. Los profesionales se valen de estas herramientas en su práctica diaria y la interpretación no es la excepción. Contar con herramientas tecnológicas a su disposición, técnicas de búsqueda virtuales, recolectar datos y aplicativos para manejo de la información, le pueden facilitar considerablemente la labor y ayudarle a obtener resultados mucho más eficientes.
     .row.bg-c8.mb-5
       .col-12
         .px-5
           .row.align-items-center
             .col-lg-4.mb-5.mb-lg-0
-              figure
+              figure(data-aos="fade-up")
                 img(src='@/assets/curso/tema2/img3.png', style="width:420px").m-auto
             .col-lg-8
               .row.mb-4
                 .col-auto.bg-c5
-                  h3.mb-0.py-2.px-5 Fuente de información primaria
-              p.mb-5 La información primaria es la que se produce directamente por y para una investigación. Se utilizan cualquier tipo de técnicas para investigar. Las fuentes primarias de información son el material de primera mano relativo al objeto investigado. Por ejemplo, un documento creado por alguien para un fin determinado.
+                  h3.mb-0.py-2.px-5(data-aos="fade-right") Fuente de información primaria
+              p.mb-5(data-aos="fade-up") La información primaria es la que se produce directamente por y para una investigación. Se utilizan cualquier tipo de técnicas para investigar. Las fuentes primarias de información son el material de primera mano relativo al objeto investigado. Por ejemplo, un documento creado por alguien para un fin determinado.
               .row.mb-4
                 .col-auto.bg-c5
-                  h3.mb-0.py-2.px-5 Fuente de información secundaria
-              p Esta la constituyen los datos recogidos y ya elaborados que existen previamente (información primaria) y son del interés del investigador, por lo que han sido producidos con diversos propósitos. Se utilizan dos técnicas para su recolección: cuantitativas (estadísticas, censos, cálculos matemáticos) y cualitativas (actas, registros, informes, documentos, entre otros).
+                  h3.mb-0.py-2.px-5(data-aos="fade-left") Fuente de información secundaria
+              p(data-aos="fade-up") Esta la constituyen los datos recogidos y ya elaborados que existen previamente (información primaria) y son del interés del investigador, por lo que han sido producidos con diversos propósitos. Se utilizan dos técnicas para su recolección: cuantitativas (estadísticas, censos, cálculos matemáticos) y cualitativas (actas, registros, informes, documentos, entre otros).
     .row.mb-4
       .col-auto.bg-c5
-        h3.mb-0.py-2.px-5 Tipos de búsqueda de información
-    p.mb-4 Existen diferentes formas de buscar la información, a continuación, se identificarán las más comunes.
+        h3.mb-0.py-2.px-5(data-aos="fade-up") Tipos de búsqueda de información
+    p.mb-4(data-aos="fade-right") Existen diferentes formas de buscar la información, a continuación, se identificarán las más comunes.
 
     .bg-c9.mb-5.px-5.pb-5
       .row
         .col-12.d-none.d-lg-block
-            figure
+            figure(data-aos="fade-left")
               img(src='@/assets/curso/tema2/img4a.png', style="width:1050px").m-auto
         .col-12.d-block.d-lg-none
-            figure
+            figure(data-aos="fade-up")
               img(src='@/assets/curso/tema2/img4b.png', style="width:500px").m-auto
 
     .row.mb-4
       .col-auto.bg-c5
-        h3.mb-0.py-2.px-5 Técnicas de recolección de información
-    p.mb-5 Para realizar la búsqueda de información, independientemente de las estrategias que se utilice, se sugieren los siguientes pasos:
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+        h3.mb-0.py-2.px-5(data-aos="fade-up") Técnicas de recolección de información
+    p.mb-5(data-aos="fade-up") Para realizar la búsqueda de información, independientemente de las estrategias que se utilice, se sugieren los siguientes pasos:
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-up")
       .tarjeta-avatar
         img(src='@/assets/curso/tema2/img5.svg' alt='AvatarTop')
         .tarjeta.color-acento-botones
@@ -130,9 +130,9 @@
     .row.mb-4
       .col-auto.bg-c5
         h3.mb-0.py-2.px-5 Búsqueda de información en internet
-    p.mb-5 Existen distintos tipos de buscadores que nos permiten localizar páginas y documentos concretos, conózcalos a continuación:
+    p.mb-5(data-aos="fade-up") Existen distintos tipos de buscadores que nos permiten localizar páginas y documentos concretos, conózcalos a continuación:
 
-    .row.bg-c10.justify-content-center.mb-5
+    .row.bg-c10.justify-content-center.mb-5(data-aos="fade-up")
       .col-lg-9
         .px-5.py-4
           ImagenInfograficaB.color-acento-botones.mb-5
@@ -150,12 +150,12 @@
               p Lo utilizan la mayoría de los buscadores hoy día y permite realizar la búsqueda tanto por palabras clave como por categorías. Algunos ejemplos de los buscadores más utilizados son:  www.google.com, www.yahoo.es, www.alltheweb.com, www.terra.es, www.msn.es, www.altavista.com, www.lycos.es, www.hispanista.com, entre otros.
     .row.mb-4
       .col-auto.bg-c5
-        h3.mb-0.py-2.px-5 Herramientas virtuales
-    p.mb-4 Las herramientas virtuales como las plataformas de #[i e-learning], campus virtual, #[i Learning Management System (LMS)], aplicaciones, entre otros, son espacios virtuales de aprendizaje orientados a facilitar la experiencia de capacitación a distancia.
-    p.txt-c2.mb-5 Beneficios de las herramientas virtuales:
+        h3.mb-0.py-2.px-5(data-aos="fade-up") Herramientas virtuales
+    p.mb-4(data-aos="fade-up") Las herramientas virtuales como las plataformas de #[i e-learning], campus virtual, #[i Learning Management System (LMS)], aplicaciones, entre otros, son espacios virtuales de aprendizaje orientados a facilitar la experiencia de capacitación a distancia.
+    p.txt-c2.mb-5(data-aos="fade-up") Beneficios de las herramientas virtuales:
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0
-        SlyderF(columnas="col-lg-6")
+        SlyderF(columnas="col-lg-6")(data-aos="fade-up")
           .tarjeta-avatar
             img(src='@/assets/curso/tema2/img13.svg' alt='AvatarTop')
             .tarjeta.color-primario
@@ -189,9 +189,9 @@
         figure
           img(src='@/assets/curso/tema2/img18.svg', style="width:90px").m-auto
       .col
-        p.mb-0 Existen también otras herramientas útiles para la producción de contenidos educativos desde su diseño, traducción (en LSC), producción y divulgación, además de volverlo accesible. Para lograr este último pero imprescindible paso, #[span.txt-c2 es necesario conocer los criterios para la creación de herramientas virtuales accesibles].
-        p.mb-0 Las preferencias de usuario, acceso e interacción de contenidos deben ser fáciles de manejar y flexibles en:
-    .row.justify-content-center.mb-5
+        p.mb-0(data-aos="fade-up") Existen también otras herramientas útiles para la producción de contenidos educativos desde su diseño, traducción (en LSC), producción y divulgación, además de volverlo accesible. Para lograr este último pero imprescindible paso, #[span.txt-c2 es necesario conocer los criterios para la creación de herramientas virtuales accesibles].
+        p.mb-0(data-aos="fade-up") Las preferencias de usuario, acceso e interacción de contenidos deben ser fáciles de manejar y flexibles en:
+    .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-md-7.col-lg-3.mb-4.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema2/img19.svg' alt='AvatarTop')
@@ -226,16 +226,16 @@
     .row.bg-c10.justify-content-center.mb-5
       .col-lg-11.d-none.d-lg-block
         .px-5.py-4
-          figure
+          figure(data-aos="fade-up")
             img(src='@/assets/curso/tema2/img24a.svg').m-auto
       .col-lg-11.d-block.d-lg-none
         .px-5.py-4
-          figure
+          figure(data-aos="fade-up")
             img(src='@/assets/curso/tema2/img24b.svg').m-auto
     .row.bg-c9.mb-5
       .col-12
         .px-5
-          p Dentro de las acciones propias para que un contenido sea accesible es preciso tener en cuenta algunas consideraciones técnicas respecto al subtitulado y a la interpretación en lengua de señas.
+          p(data-aos="fade-up") Dentro de las acciones propias para que un contenido sea accesible es preciso tener en cuenta algunas consideraciones técnicas respecto al subtitulado y a la interpretación en lengua de señas.
           .row
             .col-lg-5.mb-4.mb-lg-0
               figure
@@ -281,7 +281,7 @@
           p A continuación, puede conocer algunas herramientas que permiten la accesibilidad:
     .tarjeta.tarjeta--azul1
       .p-4.p-lg-5
-        SlyderA(tipo="b")
+        SlyderA(tipo="b")(data-aos="fade-up")
           .row.align-items-center.m-1
             .col-lg-5.mb-4.mb-lg-0
               h4 SMIL

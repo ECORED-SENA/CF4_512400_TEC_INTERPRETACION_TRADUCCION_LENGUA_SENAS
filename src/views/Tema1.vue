@@ -21,11 +21,11 @@
                   p.mb-0 La historia de la interpretación es tan antigua como la humanidad misma. #[span.txt-c1 Desde siempre han existido comunidades lingüísticas que han tenido la necesidad de intercambiar productos, alimentos, entre otros, y para ello se valieron de personas que supieran ambas lenguas y que oficiaron de intérpretes]. La interpretación de las lenguas orales se reconoció como profesión a partir de la Primera Guerra Mundial, con anterioridad a esa fecha se hacían interpretaciones, pero no se exigía una calidad mínima.
     .row.mb-4
       .col-auto.bg-c5
-        h3.mb-0.py-2.px-5 Modelos
-    p.mb-5 Para definir modos, características, requisitos, funciones y circunstancias presentes en la interpretación, además de la presencia física del intérprete, el cambio constante de código, los turnos de palabra, el número de participantes, entre otros, son algunos de los factores diferenciadores de una gama de posibilidades que determinan la dinámica de la interpretación. A continuación, se presentarán algunos modelos o tipos de interpretación, aunque no todos son comúnmente utilizados en el ejercicio de la lengua de señas.
+        h3.mb-0.py-2.px-5(data-aos="fade-up") Modelos
+    p.mb-5(data-aos="fade-up") Para definir modos, características, requisitos, funciones y circunstancias presentes en la interpretación, además de la presencia física del intérprete, el cambio constante de código, los turnos de palabra, el número de participantes, entre otros, son algunos de los factores diferenciadores de una gama de posibilidades que determinan la dinámica de la interpretación. A continuación, se presentarán algunos modelos o tipos de interpretación, aunque no todos son comúnmente utilizados en el ejercicio de la lengua de señas.
     .tarjeta.tarjeta--azul.mb-5
       .p-4.p-lg-5
-        SlyderA(tipo="b")
+        SlyderA(tipo="b")(data-aos="fade-right")
           .row.align-items-center.m-1
             .col-lg-5.mb-4.mb-lg-0
               h4 Interpretación simultánea
@@ -63,9 +63,9 @@
                 img(src='@/assets/curso/tema1/img6.png', style="width:650px").m-auto
     .row.mb-4
       .col-auto.bg-c5
-        h3.mb-0.py-2.px-5 Modalidades
-    p.mb-5 El término modalidad procede de la palabra modo, aunque también son sinónimos: manera y forma. Así que todo lo que se desarrolle bajo una determinada modalidad debe respetar ciertas reglas y mecanismos, por lo que no resulta espontáneo. Por modalidades se entiende el ámbito social o situacional en que se realiza el servicio de interpretación, algunas de estas son:
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+        h3.mb-0.py-2.px-5(data-aos="fade-right") Modalidades(data-aos="fade-up")
+    p.mb-5(data-aos="fade-up") El término modalidad procede de la palabra modo, aunque también son sinónimos: manera y forma. Así que todo lo que se desarrolle bajo una determinada modalidad debe respetar ciertas reglas y mecanismos, por lo que no resulta espontáneo. Por modalidades se entiende el ámbito social o situacional en que se realiza el servicio de interpretación, algunas de estas son:
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-left")
       .tarjeta-avatar
         img(src='@/assets/curso/tema1/img3.svg' alt='AvatarTop')
         .tarjeta.color-primario
@@ -110,15 +110,15 @@
             p Es un tipo de interpretación simultánea y suele ser muy estresante debido a las múltiples dificultades técnicas que pueden suscitarse y al alboroto que se produce en las salas de control cuando las transmisiones son en vivo. Ejemplo: noticieros, algunos asuntos políticos, olimpiadas.
     .row.mb-4
       .col-auto.bg-c5
-        h3.mb-0.py-2.px-5 Técnicas
-    p.mb-4 En el caso particular de la interpretación de Lengua de Señas a una lengua oral y viceversa, la modalidad condiciona los mecanismos que debe considerar el intérprete y varían dependiendo del tipo de interpretación que se realice, el momento de la interpretación, el desfase temporal entre el discurso original, la reformulación, el ritmo, el emisor, el receptor, las interrupciones (si las hay), la inmediatez o si la producción del discurso es paralela entre las lenguas o no.
-    p.txt-c2.mb-5 Se presentan, a continuación, tres técnicas básicas de interpretación.
+        h3.mb-0.py-2.px-5(data-aos="fade-up") Técnicas
+    p.mb-4(data-aos="fade-up") En el caso particular de la interpretación de Lengua de Señas a una lengua oral y viceversa, la modalidad condiciona los mecanismos que debe considerar el intérprete y varían dependiendo del tipo de interpretación que se realice, el momento de la interpretación, el desfase temporal entre el discurso original, la reformulación, el ritmo, el emisor, el receptor, las interrupciones (si las hay), la inmediatez o si la producción del discurso es paralela entre las lenguas o no.
+    p.txt-c2.mb-5(data-aos="fade-up") Se presentan, a continuación, tres técnicas básicas de interpretación.
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/tema1/img7.png', style="width:450px").m-auto
       .col-lg-8
-        LineaTiempoD.color-secundario
+        LineaTiempoD.color-secundario(data-aos="fade-up")
           p(numero="1" titulo="El <em>décalage</em>") Entre el discurso original y la interpretación siempre existe un desfase temporal que puede variar en función de las circunstancias. Este lapso se conoce como décalage, y el intérprete debe procurar que este sea el adecuado. Se debe recordar que el intérprete no reproduce lo que escucha, sino lo que ya ha escuchado y procesado. Así que, es labor de los intérpretes tomarse unos segundos para escuchar el mensaje y analizarlo, pues no se trata de una transposición lingüística simple, sino de una reformulación del sentido en otro idioma. El intérprete empieza a hablar inmediatamente después del orador con un intervalo de 3 a 6 segundos. En otros casos solo se espera a tener un sujeto y un predicado antes de empezar a reformular, porque con eso ya se tiene suficiente para formar una proposición.
           p(numero="2" titulo="La segmentación") Este es un proceso básico y crucial. Se trata de dividir el mensaje original en diversas unidades de sentido que permita comprenderlas, más no percibirlas. Los intérpretes tienden a ignorar la segmentación impuesta por el discurso y se hacen la suya propia, por ese motivo, la mayoría no espera a que el orador haya terminado una proposición para empezar a interpretar. La segmentación varía dependiendo de las capacidades de retención que tienen cada intérprete, aunque se cree que la máxima cantidad de información que se puede procesar es la que cabe en un máximo de diez segundos, un intervalo que permite que el intérprete se despegue del mensaje original y pueda reformular de manera más natural.
           p(numero="3" titulo="La simultaneidad") Multitasking o división de la atención, en algún momento, el intérprete involucra las siguientes actividades de manera simultánea y precisa:
@@ -141,14 +141,14 @@
           img(src='@/assets/curso/tema1/img10.svg', style="width:70px").m-auto
       .col
         p.mb-0 El proceso de interpretación se convierte en un problema cuando las tareas superan el límite individual de proceso de la información, y vienen diversas dificultades que hacen más arduo el proceso, en el siguiente video se exponen las más comunes.
-    figure.mb-5
+    figure.mb-5(data-aos="fade-up")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/k9mW_2S0g0M" title="Dificultades dentro del proceso de interpretación" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Dificultades dentro del proceso de interpretación.
     .row.mb-4
       .col-auto.bg-c5
-        h3.mb-0.py-2.px-5 Protocolos de etiquetas
-    p.mb-5 Para la mayoría de los intérpretes, la resolución de diferentes situaciones por las que atraviesan puede volverse un tema de sentido común o de experiencia laboral. El análisis de las situaciones críticas en el servicio de interpretación es fundamental para saber afrontar los encargos con responsabilidad y calidad.
+        h3.mb-0.py-2.px-5(data-aos="fade-up") Protocolos de etiquetas
+    p.mb-5(data-aos="fade-up") Para la mayoría de los intérpretes, la resolución de diferentes situaciones por las que atraviesan puede volverse un tema de sentido común o de experiencia laboral. El análisis de las situaciones críticas en el servicio de interpretación es fundamental para saber afrontar los encargos con responsabilidad y calidad.
     .row.justify-content-center.mb-5
       .col-lg-10
         .cajon.color-primario.p-4
@@ -158,8 +158,8 @@
                 img(src='@/assets/curso/tema1/img11.svg', style="width:70px").m-auto
             .col
               p.mb-0 De acuerdo con Urbina (2001), el protocolo es: #[span.txt-c1 “aquella actividad determinadora de las formas bajo las cuales han de llevarse a cabo, del mejor modo posible, las relaciones del ser humano con sus semejantes”].
-    p.txt-c2.mb-5 A continuación, se describen cada una de las clases de protocolos de etiquetas, se invita a revisarlas con atención.
-    .tarjeta.tarjeta--azul1.mb-5
+    p.txt-c2.mb-5(data-aos="fade-left") A continuación, se describen cada una de las clases de protocolos de etiquetas, se invita a revisarlas con atención.
+    .tarjeta.tarjeta--azul1.mb-5(data-aos="fade-up")
       .p-4.p-lg-5
         SlyderA(tipo="b")
           .row.align-items-center.m-1
@@ -199,16 +199,16 @@
                 img(src='@/assets/curso/tema1/img12.png', style="width:650px").m-auto
     .row.justify-content-center.mb-5
       .col-lg-10
-        p.mb-5 Dentro de cualquiera de estos eventos existen otros actos protocolarios que un intérprete debe conocer antes del día del evento, durante y después; en el siguiente documento se indican.
+        p.mb-5(data-aos="fade-up") Dentro de cualquiera de estos eventos existen otros actos protocolarios que un intérprete debe conocer antes del día del evento, durante y después; en el siguiente documento se indican.
         .tarjeta.color-primario1.p-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/tema1/img13.svg")
+              img(src="@/assets/curso/tema1/img13.svg")(data-aos="fade-up")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.text-white.mb-1 Protocolo de servicio
-                  p.text-small.text-white Antes del evento, el día del evento y post-evento.
+                  h3.text-white.mb-1(data-aos="fade-up") Protocolo de servicio
+                  p.text-small.text-white(data-aos="fade-up") Antes del evento, el día del evento y post-evento.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo1.pdf')" target="_blank")
                     span Descargar
@@ -218,28 +218,28 @@
         .px-5
           .row.mb-5
             .col-auto.bg-c5
-              h3.mb-0.py-2.px-5 Código de ética del intérprete
+              h3.mb-0.py-2.px-5(data-aos="fade-up") Código de ética del intérprete
           .row.mb-5
             .col-lg-9.mb-4.mb-lg-0
               .cajon.color-primario.p-4.mb-4
                 .row.align-items-center
                   .col-12.col-lg-auto.mb-4.mb-lg-0
-                    figure
+                    figure(data-aos="fade-up")
                       img(src='@/assets/curso/tema1/img15.svg', style="width:70px").m-auto
                   .col
-                    p.mb-0 Durante años diferentes instituciones y entidades del país han manifestado la necesidad de contar con un código de ética del intérprete de lengua de señas colombiana donde se demuestre el compromiso por cuidar y mantener comportamientos profesionales, saludables y humanos en la prestación del servicio.
-              p Hasta el día de hoy, dicho código está en construcción, sin embargo, es necesario enunciar algunos valores que puedan guiar la actitud y la conducta del intérprete para que a través de su trabajo, evite que se comprometa la integridad y la imagen del gremio, estimulando desde la ética, el respeto por los usuarios del servicio de interpretación tanto sordos como oyentes.
-              p.txt-c2.mb-0 El código de ética del intérprete debe contemplar los siguientes aspectos:
+                    p.mb-0(data-aos="fade-up") Durante años diferentes instituciones y entidades del país han manifestado la necesidad de contar con un código de ética del intérprete de lengua de señas colombiana donde se demuestre el compromiso por cuidar y mantener comportamientos profesionales, saludables y humanos en la prestación del servicio.
+              p(data-aos="fade-up") Hasta el día de hoy, dicho código está en construcción, sin embargo, es necesario enunciar algunos valores que puedan guiar la actitud y la conducta del intérprete para que a través de su trabajo, evite que se comprometa la integridad y la imagen del gremio, estimulando desde la ética, el respeto por los usuarios del servicio de interpretación tanto sordos como oyentes.
+              p.txt-c2.mb-0(data-aos="fade-up") El código de ética del intérprete debe contemplar los siguientes aspectos:
             .col-lg-3
-              figure
+              figure(data-aos="fade-up")
                 img(src='@/assets/curso/tema1/img16.svg', style="width:450px").m-auto
-          .row.justify-content-center
+          .row.justify-content-center(data-aos="fade-up")
             .col-lg-10
               ImagenInfograficaB.color-acento-botones.mb-5
                 template(v-slot:imagen)
                   figure
-                    img(src='@/assets/curso/tema1/img17.svg')
-                div(x="50%" y="10%" tooltip="Enfoque" numero="1")
+                    img(src='@/assets/curso/tema1/img17b.svg')
+                div(x="53.5%" y="11.5%" tooltip="Enfoque" numero="+")
                   h3 Enfoque
                   p Hacen referencia al conjunto de normas que orientan la acción de los intérpretes de lengua de señas. Aunque a la fecha están en construcción, estos principios no podrán contradecir lo que está establecido por las leyes reguladoras locales, departamentales o del estado. Dentro de esas normas generales se encuentran:
                   ul.lista-ul
@@ -258,10 +258,10 @@
                     li
                       i.lista-ul__vineta
                       | Recomendaciones generales para prestar el servicio de interpretación.
-                div(x="30%" y="40%" tooltip="Principios del intérprete de LSC" numero="2")
+                div(x="31%" y="43%" tooltip="Principios del intérprete de LSC" numero="+")
                   h3 Principios del intérprete de LSC
                   p Los parámetros frecuentes que cumple un código de ética, teniendo en cuenta la teoría deontológica, se enfocan en normas generales, conducta interprofesional, secreto profesional, honorarios, incompatibilidades, disposición de la labor y una resolución firmada por las personas que aprueban y construyen el código. Por lo general, estos códigos adquieren credibilidad cuando se le vinculan estímulos y sanciones que deberán cumplirse para que no pierda impacto, todos los intérpretes de lengua de señas colombiana deberán estar familiarizados con dicho código.
-                div(x="80%" y="40%" tooltip="Valores del intérprete de LSC" numero="3")
+                div(x="97.5%" y="29%" tooltip="Valores del intérprete de LSC" numero="+")
                   h3 Valores del intérprete de LSC
                   p Hacen referencia a las cualidades que se destacan en el intérprete y que lo impulsan a actuar de una u otra manera, forman parte de sus creencias, expresan sus intereses y sentimientos. Algunos expertos han puesto por escrito listados de valores, sin embargo, aquí se nombran algunos que definen los comportamientos de mayor repercusión sobre los intérpretes de LSC: la confidencialidad, la discreción, el respeto, la responsabilidad, la honradez, la solidaridad, la verdad, la paz, la imparcialidad y la modestia.
 
