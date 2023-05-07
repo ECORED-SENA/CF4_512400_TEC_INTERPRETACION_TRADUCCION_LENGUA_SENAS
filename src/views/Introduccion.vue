@@ -22,7 +22,7 @@
           figure.mb-5
             .video
               iframe(width="560" height="315" src="https://www.youtube.com/embed/52rRPeSOC9U" title="Reconociendo la labor del intérprete" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-            figcaption Video: Reconociendo la labor del intérprete.
+            figcaption Video. Reconociendo la labor del intérprete.
 
 </template>
 

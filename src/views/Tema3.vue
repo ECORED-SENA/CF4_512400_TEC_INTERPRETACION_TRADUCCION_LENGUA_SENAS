@@ -84,7 +84,7 @@
         h3.mb-0.py-2.px-5(data-aos="fade-right") Estructuras de la lingüística textual
     .row.mb-5
       .col-lg-9.mb-4.mb-lg-0
-        p(data-aos="fade-up") El lingüista holandés. Van Dijk (2005), #[span.txt-c1 planteó contemplar un texto desde tres perspectivas: una general organizativa, llamada superestructura; otra global de carácter jerárquico y funcional, llamada macroestructura] (sujeta a la estructura anterior); y la microestructura, lo más básico, pero no menos importante. Un buen ejemplo es un edificio: la construcción es la superestructura; cada piso, ordenado jerárquicamente, son las macroestructuras; y los tabiques, vigas y demás elementos unidos por los remaches y el concreto (los enlaces que dan cohesión) son las microestructuras.
+        p(data-aos="fade-up").mb-4 El lingüista holandés. Van Dijk (2005), #[span.txt-c1 planteó contemplar un texto desde tres perspectivas: una general organizativa, llamada superestructura; otra global de carácter jerárquico y funcional, llamada macroestructura] (sujeta a la estructura anterior); y la microestructura, lo más básico, pero no menos importante. Un buen ejemplo es un edificio: la construcción es la superestructura; cada piso, ordenado jerárquicamente, son las macroestructuras; y los tabiques, vigas y demás elementos unidos por los remaches y el concreto (los enlaces que dan cohesión) son las microestructuras.
         .cajon.color-primario.p-4.mb-4
           .row.align-items-start
             .col-12.col-lg-auto.mb-4.mb-lg-0
@@ -114,10 +114,13 @@
                 figure
                   img(src='@/assets/curso/tema3/img3_book.png')
               .tarjeta.color-acento-botones.p-3(x="23%" y="0%" numero="1")
+                p.mb-1 #[b Superestructura textual]
                 p.mb-0 Es la estructura formal que representa las partes en que se organiza el contenido de un texto. Es el esqueleto reconocible que caracteriza un género discursivo, estructura la información: organiza las secuencias de frases y les asigna una función específica en la comunicación. Las frases de un texto se organizan en un esquema constituido por categorías funcionales, unas opcionales y otras obligatorias.
               .tarjeta.color-acento-botones.p-3(x="50%" y="-10%" numero="2")
+                p.mb-1 #[b Macroestructura textual]
                 p.mb-0 Es el contenido semántico global que representa el sentido de un texto. Para que un texto se perciba como una unidad de comunicación, debe poseer un significado, es decir, el asunto del que trata o el tema. La macroestructura textual es un concepto cercano al tema o asunto del texto. Por tal motivo, el texto debe cumplir la condición de coherencia global de su significado.
               .tarjeta.color-acento-botones.p-3(x="77%" y="0%" numero="3")
+                p.mb-1 #[b Microestructura textual]
                 p.mb-0 Es cada una de las ideas principales o proposiciones que, relacionadas entre sí semánticamente, logran dar soporte a la idea general en un texto, construirlo, darle sentido y hacerlo coherente. Para construirlas se necesita crear nexos entre las proposiciones, preferiblemente léxicas, causales o referenciales. Primero hay que generar las proposiciones, y segundo, cohesionarlas.
           .d-block.d-lg-none
             ImagenInfografica.color-acento-botones.mb-5(data-aos="fade-up")
@@ -163,6 +166,7 @@
       .py-4.py-md-5(titulo="¿Qué pasa?" :icono="require('@/assets/curso/tema3/img5.svg')")
         .row.justify-content-center
           .col-lg-7.mb-4.mb-lg-0
+            p.mb-3 #[b Texto narrativo]
             ul.lista-ul
               li.mb-0
                 i.lista-ul__vineta
@@ -182,6 +186,7 @@
       .py-4.py-md-5(titulo="¿Cómo es?" :icono="require('@/assets/curso/tema3/img6.svg')")
         .row.justify-content-center
           .col-lg-7.mb-4.mb-lg-0
+            p.mb-3 #[b Texto descriptivo]
             ul.lista-ul
               li.mb-0
                 i.lista-ul__vineta
@@ -201,6 +206,7 @@
       .py-4.py-md-5(titulo="¿Qué piensa?" :icono="require('@/assets/curso/tema3/img7.svg')")
         .row.justify-content-center
           .col-lg-7.mb-4.mb-lg-0
+            p.mb-3 #[b Texto argumentativo]
             ul.lista-ul
               li.mb-0
                 i.lista-ul__vineta
@@ -220,6 +226,7 @@
       .py-4.py-md-5(titulo="¿Por qué es así?" :icono="require('@/assets/curso/tema3/img8.svg')")
         .row.justify-content-center
           .col-lg-7.mb-4.mb-lg-0
+            p.mb-3 #[b Texto explicativo]
             ul.lista-ul
               li.mb-0
                 i.lista-ul__vineta
@@ -239,6 +246,7 @@
       .py-4.py-md-5(titulo="¿Qué dicen?" :icono="require('@/assets/curso/tema3/img9.svg')")
         .row.justify-content-center
           .col-lg-7.mb-4.mb-lg-0
+            p.mb-3 #[b Texto dialogado o dialógico]
             ul.lista-ul
               li.mb-0
                 i.lista-ul__vineta

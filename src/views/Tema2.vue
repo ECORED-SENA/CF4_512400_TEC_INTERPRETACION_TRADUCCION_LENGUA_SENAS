@@ -32,7 +32,7 @@
         .bloque-texto-c.color-secundario.p-4.mb-3
           i.fas.fa-quote-right
           p.text-white.my-2(data-aos="fade-right") No se puede descartar que existieran algunos sistemas de señas en el territorio colombiano antes del arribo de los españoles; ni que algunas personas sordas usuarias de una lengua de señas hubieran llegado entre quienes venían a habitar las colonias.
-          span.d-flex.justify-content-end.text-white.mb-3 - Ovideo
+          span.d-flex.justify-content-end.text-white.mb-3 - Ovideo (2001)
         p.mb-0(data-aos="fade-left") Fue solo hasta 1924 cuando algunas comunidades católicas que llegaron de otros lugares iniciaron procesos educativos en Medellín - Colombia con la I.E. Francisco Luis Hernández Betancur (1943) y en Bogotá con la I. E. de Nuestra Señora de la Sabiduría (1924) con métodos oralistas traídos del Congreso de Milán.
     p.mb-4(data-aos="fade-up") De acuerdo con el #[span.txt-c2 Decreto 2369 de 1997, la función principal del intérprete oficial es traducir, al idioma castellano o de este a la lengua de señas colombiana], las comunicaciones que deben efectuar las personas sordas con personas oyentes o la traducción a los sistemas especiales de comunicación utilizados por las personas sordociegas.
     .row.justify-content-center(data-aos="fade-right")
@@ -83,16 +83,49 @@
         h3.mb-0.py-2.px-5(data-aos="fade-up") Tipos de búsqueda de información
     p.mb-4(data-aos="fade-right") Existen diferentes formas de buscar la información, a continuación, se identificarán las más comunes.
 
-    .bg-c9.mb-5.px-5.pb-5
-      .row
-        .col-12.d-none.d-lg-block
-            figure(data-aos="fade-left")
-              img(src='@/assets/curso/tema2/img4a.png', style="width:1050px").m-auto
-        .col-12.d-block.d-lg-none
-            figure(data-aos="fade-up")
-              img(src='@/assets/curso/tema2/img4b.png', style="width:500px").m-auto
+    .row.align-items-stretch.mb-5
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.color-secundario.p-4(data-aos="fade-right")
+          .row.justify-content-start.mb-3
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema2/icon_18.svg', alt='1. Búsqueda documentaria', style="max-width:77px")
 
-    .row.mb-4
+          h5 1. Búsqueda documentaria
+          p.text-small Se refiere a la localización de documentos, copias de documentos y referencias bibliográficas.
+
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.color-secundario.p-4(data-aos="zoom-in")
+          .row.justify-content-start.mb-3
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema2/icon_19.svg', alt='2. Búsqueda factográfica', style="max-width:77px")
+
+          h5 2. Búsqueda factográfica
+          p.text-small Documentar con datos y gráficos para abordar temas de salud.
+
+      .col-sm-6.col-lg-3.mb-4.mb-sm-0
+        .tarjeta--boton.color-secundario.p-4(data-aos="zoom-in")
+          .row.justify-content-start.mb-3
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema2/icon_20.svg', alt='3. Búsqueda de actualización o puesta al día', style="max-width:77px")
+
+          h5 3. Búsqueda de actualización o puesta al día
+          p.text-small La que hace el profesional para actualizar sus conocimientos sobre los distintos avances en un tema determinado.
+
+      .col-sm-6.col-lg-3
+        .tarjeta--boton.color-secundario.p-4(data-aos="fade-left")
+          .row.justify-content-start.mb-3
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema2/icon_21.svg', alt='4. Búsqueda retrospectiva', style="max-width:77px")
+
+          h5 4. Búsqueda retrospectiva
+          p.text-small Parte de la necesidad de solucionar un problema en particular y cuya consulta puede ser simple o exhaustiva.
+
+
+    .row.mb-5
       .col-auto.bg-c5
         h3.mb-0.py-2.px-5(data-aos="fade-up") Técnicas de recolección de información
     p.mb-5(data-aos="fade-up") Para realizar la búsqueda de información, independientemente de las estrategias que se utilice, se sugieren los siguientes pasos:
@@ -101,32 +134,32 @@
         img(src='@/assets/curso/tema2/img5.svg' alt='AvatarTop')
         .tarjeta.color-acento-botones
           .p-4
-            h4.text-center Precisar el tema
-            p Se debe definir cuál va a ser objeto de su estudio o investigación. Debido a la cantidad de información que puede existir cuando se inicia una búsqueda, es necesario fijar unos criterios claros, especificar el tópico, el alcance, etc.
+            h5.text-center Precisar el tema
+            p.text-small Se debe definir cuál va a ser objeto de su estudio o investigación. Debido a la cantidad de información que puede existir cuando se inicia una búsqueda, es necesario fijar unos criterios claros, especificar el tópico, el alcance, etc.
       .tarjeta-avatar
         img(src='@/assets/curso/tema2/img6.svg' alt='AvatarTop')
         .tarjeta.color-primario
           .p-4
-            h4.text-center Elegir los términos de búsqueda
-            p En este paso se sugiere utilizar diferentes palabras clave y adecuadas, relacionadas con el tema que se precisan en el paso anterior, lo ideal es buscar términos precisos, claros y coherentes.
+            h5.text-center Elegir los términos de búsqueda
+            p.text-small En este paso se sugiere utilizar diferentes palabras clave y adecuadas, relacionadas con el tema que se precisan en el paso anterior, lo ideal es buscar términos precisos, claros y coherentes.
       .tarjeta-avatar
         img(src='@/assets/curso/tema2/img7.svg' alt='AvatarTop')
         .tarjeta.color-acento-botones
           .p-4
-            h4.text-center Seleccionar las fuentes de información
-            p Pueden ser fuentes primarias, es decir las que contienen información original de un autor, o secundarias como índices, resúmenes, bibliografías, bases de datos, etc. especializadas en el tema.
+            h5.text-center Seleccionar las fuentes de información
+            p.text-small Pueden ser fuentes primarias, es decir las que contienen información original de un autor, o secundarias como índices, resúmenes, bibliografías, bases de datos, etc. especializadas en el tema.
       .tarjeta-avatar
         img(src='@/assets/curso/tema2/img8.svg' alt='AvatarTop')
         .tarjeta.color-primario
           .p-4
-            h4.text-center Ejecutar la búsqueda
-            p Este paso se inicia con el proceso de indagación de la información, se consultan las fuentes seleccionadas, se toman apuntes, se extraen las ideas principales, se desecha la información que no es útil para el proceso.
+            h5.text-center Ejecutar la búsqueda
+            p.text-small Este paso se inicia con el proceso de indagación de la información, se consultan las fuentes seleccionadas, se toman apuntes, se extraen las ideas principales, se desecha la información que no es útil para el proceso.
       .tarjeta-avatar
         img(src='@/assets/curso/tema2/img9.svg' alt='AvatarTop')
         .tarjeta.color-acento-botones
           .p-4
-            h4.text-center Organizar la información
-            p En este paso se obtienen y organizan los documentos que versan sobre el tema, aquí se solicitan, compran, imprimen, etc., la búsqueda de información debe finalizar en este paso en obtener lo que se necesita para poder cumplir con los objetivos propuestos.
+            h5.text-center Organizar la información
+            p.text-small En este paso se obtienen y organizan los documentos que versan sobre el tema, aquí se solicitan, compran, imprimen, etc., la búsqueda de información debe finalizar en este paso en obtener lo que se necesita para poder cumplir con los objetivos propuestos.
     .row.mb-4
       .col-auto.bg-c5
         h3.mb-0.py-2.px-5 Búsqueda de información en internet
@@ -184,13 +217,14 @@
       .col-lg-4
         figure
           img(src='@/assets/curso/tema2/img12.svg', style="width:450px").m-auto
-    .row.align-items-center.mb-5
+    .row.align-items-center.mb-4
       .col-auto
         figure
-          img(src='@/assets/curso/tema2/img18.svg', style="width:90px").m-auto
+          img(src='@/assets/curso/tema2/img18b.svg', style="width:90px").m-auto
       .col
         p.mb-0(data-aos="fade-up") Existen también otras herramientas útiles para la producción de contenidos educativos desde su diseño, traducción (en LSC), producción y divulgación, además de volverlo accesible. Para lograr este último pero imprescindible paso, #[span.txt-c2 es necesario conocer los criterios para la creación de herramientas virtuales accesibles].
-        p.mb-0(data-aos="fade-up") Las preferencias de usuario, acceso e interacción de contenidos deben ser fáciles de manejar y flexibles en:
+
+    p.mb-5(data-aos="fade-up") Las preferencias de usuario, acceso e interacción de contenidos deben ser fáciles de manejar y flexibles en:
     .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-md-7.col-lg-3.mb-4.mb-lg-0
         .tarjeta-avatar
@@ -241,8 +275,8 @@
               figure
                 img(src='@/assets/curso/tema2/img25.svg', style="width:450px").m-auto
             .col-lg-7
-              h4 Subtitulado:
-              ul.lista-ul.mb-4
+              p.txt-c3 #[b Subtitulado:]
+              ul.lista-ul.color-azul.mb-4
                 li.mb-0
                   i.lista-ul__vineta
                   | Velocidad de 12 caracteres por segundo.
@@ -254,12 +288,12 @@
                   | Separar frases largas según las conjunciones.
                 li.mb-0
                   i.lista-ul__vineta
-                  | Sincronización con el locutor en off.
+                  | Sincronización con el locutor en #[em off].
                 li.mb-0
                   i.lista-ul__vineta
                   | Utilizar paréntesis en vez de corchetes.
-              h4 Herramientas con interpretación en lengua de señas:
-              ul.lista-ul
+              p.txt-c3 #[b Herramientas con interpretación en lengua de señas:]
+              ul.lista-ul.color-azul
                 li.mb-0
                   i.lista-ul__vineta
                   | La persona que signe debe ser competente en la lengua de señas de uso cotidiano.
@@ -278,7 +312,8 @@
                 li.mb-0
                   i.lista-ul__vineta
                   | Se recomienda una resolución mínima de 352 x 288 píxeles.
-          p A continuación, puede conocer algunas herramientas que permiten la accesibilidad:
+
+    p A continuación, puede conocer algunas herramientas que permiten la accesibilidad:
     .tarjeta.tarjeta--azul1
       .p-4.p-lg-5
         SlyderA(tipo="b")(data-aos="fade-up")

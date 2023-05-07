@@ -76,7 +76,7 @@
         img(src='@/assets/curso/tema1/img4.svg' alt='AvatarTop')
         .tarjeta.color-acento-botones
           .p-4
-            h2.text-center Marketing
+            h2.text-center #[em Marketing]
             p Interpretación centrada en el ámbito empresarial y de la negociación. Aquí generalmente se imita la entonación, las risas, el tono y las emociones transmitidas por el hablante. Ejemplo: reuniones de trabajo, negociaciones comerciales, recorridos en fábricas, exhibiciones internacionales.
       .tarjeta-avatar
         img(src='@/assets/curso/tema1/img5.svg' alt='AvatarTop')
@@ -88,13 +88,13 @@
         img(src='@/assets/curso/tema1/img6.svg' alt='AvatarTop')
         .tarjeta.color-acento-botones
           .p-4
-            h2.text-center Escort
+            h2.text-center #[em Escort]
             p Este es un tipo de interpretación de enlace. Un intérprete acompaña a una persona o grupo, a una entrevista, tour, etc. Es como un acompañante para facilitar la comunicación.
       .tarjeta-avatar
         img(src='@/assets/curso/tema1/img7.svg' alt='AvatarTop')
         .tarjeta.color-primario
           .p-4
-            h2.text-center Escort
+            h2.text-center Comunitaria
             p Asegura la transmisión de información para grupos entre los cuales no existe una misma lengua de intercambio. Tiene una función integradora y social. El intérprete ha de tomar decisiones lingüísticas relevantes siendo consciente de las situaciones de comunicación, como diferencias culturales, el lenguaje apropiado para la audiencia, habilidades de traducción incluso entre dos idiomas, etc. Ejemplo: colegios, policía, hospitales.
       .tarjeta-avatar
         img(src='@/assets/curso/tema1/img8.svg' alt='AvatarTop')
@@ -144,7 +144,7 @@
     figure.mb-5(data-aos="fade-up")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/k9mW_2S0g0M" title="Dificultades dentro del proceso de interpretación" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Dificultades dentro del proceso de interpretación.
+      figcaption Video. Dificultades dentro del proceso de interpretación.
     .row.mb-4
       .col-auto.bg-c5
         h3.mb-0.py-2.px-5(data-aos="fade-up") Protocolos de etiquetas
@@ -213,57 +213,69 @@
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo1.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
-    .row.bg-c6
-      .col-12
-        .px-5
-          .row.mb-5
-            .col-auto.bg-c5
-              h3.mb-0.py-2.px-5(data-aos="fade-up") Código de ética del intérprete
-          .row.mb-5
-            .col-lg-9.mb-4.mb-lg-0
-              .cajon.color-primario.p-4.mb-4
-                .row.align-items-center
-                  .col-12.col-lg-auto.mb-4.mb-lg-0
-                    figure(data-aos="fade-up")
-                      img(src='@/assets/curso/tema1/img15.svg', style="width:70px").m-auto
-                  .col
-                    p.mb-0(data-aos="fade-up") Durante años diferentes instituciones y entidades del país han manifestado la necesidad de contar con un código de ética del intérprete de lengua de señas colombiana donde se demuestre el compromiso por cuidar y mantener comportamientos profesionales, saludables y humanos en la prestación del servicio.
-              p(data-aos="fade-up") Hasta el día de hoy, dicho código está en construcción, sin embargo, es necesario enunciar algunos valores que puedan guiar la actitud y la conducta del intérprete para que a través de su trabajo, evite que se comprometa la integridad y la imagen del gremio, estimulando desde la ética, el respeto por los usuarios del servicio de interpretación tanto sordos como oyentes.
-              p.txt-c2.mb-0(data-aos="fade-up") El código de ética del intérprete debe contemplar los siguientes aspectos:
-            .col-lg-3
+
+    .row.mb-5
+      .col-auto.bg-c5
+        h3.mb-0.py-2.px-5(data-aos="fade-up") Código de ética del intérprete
+    .row.mb-5
+      .col-lg-9.mb-4.mb-lg-0
+        .cajon.color-primario.p-4.mb-4
+          .row.align-items-center
+            .col-12.col-lg-auto.mb-4.mb-lg-0
               figure(data-aos="fade-up")
-                img(src='@/assets/curso/tema1/img16.svg', style="width:450px").m-auto
-          .row.justify-content-center(data-aos="fade-up")
-            .col-lg-10
-              ImagenInfograficaB.color-acento-botones.mb-5
-                template(v-slot:imagen)
-                  figure
-                    img(src='@/assets/curso/tema1/img17b.svg')
-                div(x="53.5%" y="11.5%" tooltip="Enfoque" numero="+")
-                  h3 Enfoque
-                  p Hacen referencia al conjunto de normas que orientan la acción de los intérpretes de lengua de señas. Aunque a la fecha están en construcción, estos principios no podrán contradecir lo que está establecido por las leyes reguladoras locales, departamentales o del estado. Dentro de esas normas generales se encuentran:
-                  ul.lista-ul
-                    li
-                      i.lista-ul__vineta
-                      | Requisitos para ser intérprete.
-                    li
-                      i.lista-ul__vineta
-                      | Principios y valores éticos referidos a la labor del intérprete.
-                    li
-                      i.lista-ul__vineta
-                      | Código de vestimenta.
-                    li
-                      i.lista-ul__vineta
-                      | Conductas apropiadas e inapropiadas del intérprete.
-                    li
-                      i.lista-ul__vineta
-                      | Recomendaciones generales para prestar el servicio de interpretación.
-                div(x="31%" y="43%" tooltip="Principios del intérprete de LSC" numero="+")
-                  h3 Principios del intérprete de LSC
-                  p Los parámetros frecuentes que cumple un código de ética, teniendo en cuenta la teoría deontológica, se enfocan en normas generales, conducta interprofesional, secreto profesional, honorarios, incompatibilidades, disposición de la labor y una resolución firmada por las personas que aprueban y construyen el código. Por lo general, estos códigos adquieren credibilidad cuando se le vinculan estímulos y sanciones que deberán cumplirse para que no pierda impacto, todos los intérpretes de lengua de señas colombiana deberán estar familiarizados con dicho código.
-                div(x="97.5%" y="29%" tooltip="Valores del intérprete de LSC" numero="+")
-                  h3 Valores del intérprete de LSC
-                  p Hacen referencia a las cualidades que se destacan en el intérprete y que lo impulsan a actuar de una u otra manera, forman parte de sus creencias, expresan sus intereses y sentimientos. Algunos expertos han puesto por escrito listados de valores, sin embargo, aquí se nombran algunos que definen los comportamientos de mayor repercusión sobre los intérpretes de LSC: la confidencialidad, la discreción, el respeto, la responsabilidad, la honradez, la solidaridad, la verdad, la paz, la imparcialidad y la modestia.
+                img(src='@/assets/curso/tema1/img15.svg', style="width:70px").m-auto
+            .col
+              p.mb-0(data-aos="fade-up") Durante años diferentes instituciones y entidades del país han manifestado la necesidad de contar con un código de ética del intérprete de lengua de señas colombiana donde se demuestre el compromiso por cuidar y mantener comportamientos profesionales, saludables y humanos en la prestación del servicio.
+        p(data-aos="fade-up") Hasta el día de hoy, dicho código está en construcción, sin embargo, es necesario enunciar algunos valores que puedan guiar la actitud y la conducta del intérprete para que a través de su trabajo, evite que se comprometa la integridad y la imagen del gremio, estimulando desde la ética, el respeto por los usuarios del servicio de interpretación tanto sordos como oyentes.
+        p.txt-c2.mb-0(data-aos="fade-up") El código de ética del intérprete debe contemplar los siguientes aspectos:
+      .col-lg-3
+        figure(data-aos="fade-up")
+          img(src='@/assets/curso/tema1/img16.svg', style="width:450px").m-auto
+
+
+
+    .tarjeta.tarjeta--azul1.mb-5(data-aos="fade-up")
+      .p-4.p-lg-5
+        SlyderA(tipo="b")
+          .row.align-items-center.m-1
+            .col-lg-7.mb-4.mb-lg-0
+              h4 Enfoque
+              p Los parámetros frecuentes que cumple un código de ética, teniendo en cuenta la teoría deontológica, se enfocan en normas generales, conducta interprofesional, secreto profesional, honorarios, incompatibilidades, disposición de la labor y una resolución firmada por las personas que aprueban y construyen el código. Por lo general, estos códigos adquieren credibilidad cuando se le vinculan estímulos y sanciones que deberán cumplirse para que no pierda impacto, todos los intérpretes de lengua de señas colombiana deberán estar familiarizados con dicho código.
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/tema1/img19.svg', style="max-width:352px").m-auto
+          .row.align-items-center.m-1
+            .col-lg-7.mb-4.mb-lg-0
+              h4 Valores del intérprete de LSC
+              p Hacen referencia a las cualidades que se destacan en el intérprete y que lo impulsan a actuar de una u otra manera, forman parte de sus creencias, expresan sus intereses y sentimientos. Algunos expertos han puesto por escrito listados de valores, sin embargo, aquí se nombran algunos que definen los comportamientos de mayor repercusión sobre los intérpretes de LSC: la confidencialidad, la discreción, el respeto, la responsabilidad, la honradez, la solidaridad, la verdad, la paz, la imparcialidad y la modestia.
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/tema1/img20.svg', style="max-width:352px").m-auto
+          .row.align-items-center.m-1
+            .col-lg-7.mb-4.mb-lg-0
+              h4 Principios del intérprete de LSC.
+              p.mb-3 Hacen referencia al conjunto de normas que orientan la acción de los intérpretes de lengua de señas. Aunque a la fecha están en construcción, estos principios no podrán contradecir lo que está establecido por las leyes reguladoras locales, departamentales o del estado. Dentro de esas normas generales se encuentran:
+
+              ul.lista-ul
+                li
+                  i.lista-ul__vineta
+                  | Requisitos para ser intérprete.
+                li
+                  i.lista-ul__vineta
+                  | Principios y valores éticos referidos a la labor del intérprete.
+                li
+                  i.lista-ul__vineta
+                  | Código de vestimenta.
+                li
+                  i.lista-ul__vineta
+                  | Conductas apropiadas e inapropiadas del intérprete.
+                li
+                  i.lista-ul__vineta
+                  | Recomendaciones generales para prestar el servicio de interpretación.
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/tema1/img21.svg', style="max-width:352px").m-auto
+
 
 </template>
 
