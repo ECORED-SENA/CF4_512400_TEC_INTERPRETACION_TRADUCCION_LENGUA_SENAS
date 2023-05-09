@@ -255,7 +255,7 @@
                 img(src='@/assets/curso/tema1/img20.svg', style="max-width:352px").m-auto
           .row.align-items-center.m-1
             .col-lg-7.mb-4.mb-lg-0
-              h4 Principios del intérprete de LSC.
+              h4 Principios del intérprete de LSC
               p.mb-3 Hacen referencia al conjunto de normas que orientan la acción de los intérpretes de lengua de señas. Aunque a la fecha están en construcción, estos principios no podrán contradecir lo que está establecido por las leyes reguladoras locales, departamentales o del estado. Dentro de esas normas generales se encuentran:
 
               ul.lista-ul
