@@ -11,8 +11,8 @@
       .col-12.bg-c7
         .row.align-items-start.justify-content-center
           .col-lg-4
-            figure(data-aos="fade-up")
-              img(src='@/assets/curso/tema2/img1.svg', style="width:350px").m-auto
+            figure
+              img(src='@/assets/curso/tema2/img1.svg', style="width:350px").m-auto(data-aos="fade-up")
           .col-lg-7
             .row
               .col-12.mb-4
@@ -26,8 +26,8 @@
     p(data-aos="fade-left") La historia de los intérpretes de Lengua de Señas en Colombia puede ser tan antigua como la existencia de los sordos en el continente americano. Al tratarse de una comunidad cuya lengua es ágrafa, no hay documentos escritos que cuenten o respalden relatos sobre sus inicios en este país. Los pocos registros que hay están ligados a la educación de los sordos, por lo que los intérpretes empezaron a jugar, desde entonces, un papel importante.
     .row.align-items-center.mb-3
       .col-lg-5.mb-4.mb-lg-0
-        figure(data-aos="fade-up")
-          img(src='@/assets/curso/tema2/img1.png', style="width:500px").m-auto
+        figure
+          img(src='@/assets/curso/tema2/img1.png', style="width:500px").m-auto(data-aos="fade-up")
       .col-lg-7
         .bloque-texto-c.color-secundario.p-4.mb-3
           i.fas.fa-quote-right
@@ -67,8 +67,8 @@
         .px-5
           .row.align-items-center
             .col-lg-4.mb-5.mb-lg-0
-              figure(data-aos="fade-up")
-                img(src='@/assets/curso/tema2/img3.png', style="width:420px").m-auto
+              figure
+                img(src='@/assets/curso/tema2/img3.png', style="width:420px").m-auto(data-aos="fade-up")
             .col-lg-8
               .row.mb-4
                 .col-auto.bg-c5
@@ -85,41 +85,41 @@
 
     .row.align-items-stretch.mb-5
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-secundario.p-4(data-aos="fade-right")
+        .tarjeta--boton.color-secundario.p-4
           .row.justify-content-start.mb-3
             .col-auto
               figure
-                img(src='@/assets/curso/tema2/icon_18.svg', alt='1. Búsqueda documentaria', style="max-width:77px")
+                img(src='@/assets/curso/tema2/icon_18.svg', alt='1. Búsqueda documentaria', style="max-width:77px")(data-aos="fade-up")
 
           h5 1. Búsqueda documentaria
           p.text-small Se refiere a la localización de documentos, copias de documentos y referencias bibliográficas.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-secundario.p-4(data-aos="zoom-in")
+        .tarjeta--boton.color-secundario.p-4
           .row.justify-content-start.mb-3
             .col-auto
               figure
-                img(src='@/assets/curso/tema2/icon_19.svg', alt='2. Búsqueda factográfica', style="max-width:77px")
+                img(src='@/assets/curso/tema2/icon_19.svg', alt='2. Búsqueda factográfica', style="max-width:77px")(data-aos="zoom-in")
 
           h5 2. Búsqueda factográfica
           p.text-small Documentar con datos y gráficos para abordar temas de salud.
 
       .col-sm-6.col-lg-3.mb-4.mb-sm-0
-        .tarjeta--boton.color-secundario.p-4(data-aos="zoom-in")
+        .tarjeta--boton.color-secundario.p-4
           .row.justify-content-start.mb-3
             .col-auto
               figure
-                img(src='@/assets/curso/tema2/icon_20.svg', alt='3. Búsqueda de actualización o puesta al día', style="max-width:77px")
+                img(src='@/assets/curso/tema2/icon_20.svg', alt='3. Búsqueda de actualización o puesta al día', style="max-width:77px")(data-aos="zoom-in")
 
           h5 3. Búsqueda de actualización o puesta al día
           p.text-small La que hace el profesional para actualizar sus conocimientos sobre los distintos avances en un tema determinado.
 
       .col-sm-6.col-lg-3
-        .tarjeta--boton.color-secundario.p-4(data-aos="fade-left")
+        .tarjeta--boton.color-secundario.p-4
           .row.justify-content-start.mb-3
             .col-auto
               figure
-                img(src='@/assets/curso/tema2/icon_21.svg', alt='4. Búsqueda retrospectiva', style="max-width:77px")
+                img(src='@/assets/curso/tema2/icon_21.svg', alt='4. Búsqueda retrospectiva', style="max-width:77px")(data-aos="fade-left")
 
           h5 4. Búsqueda retrospectiva
           p.text-small Parte de la necesidad de solucionar un problema en particular y cuya consulta puede ser simple o exhaustiva.
@@ -129,7 +129,7 @@
       .col-auto.bg-c5
         h3.mb-0.py-2.px-5(data-aos="fade-up") Técnicas de recolección de información
     p.mb-5(data-aos="fade-up") Para realizar la búsqueda de información, independientemente de las estrategias que se utilice, se sugieren los siguientes pasos:
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-up")
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
       .tarjeta-avatar
         img(src='@/assets/curso/tema2/img5.svg' alt='AvatarTop')
         .tarjeta.color-acento-botones
@@ -188,7 +188,7 @@
     p.txt-c2.mb-5(data-aos="fade-up") Beneficios de las herramientas virtuales:
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0
-        SlyderF(columnas="col-lg-6")(data-aos="fade-up")
+        SlyderF(columnas="col-lg-6")
           .tarjeta-avatar
             img(src='@/assets/curso/tema2/img13.svg' alt='AvatarTop')
             .tarjeta.color-primario
@@ -260,12 +260,12 @@
     .row.bg-c10.justify-content-center.mb-5
       .col-lg-11.d-none.d-lg-block
         .px-5.py-4
-          figure(data-aos="fade-up")
-            img(src='@/assets/curso/tema2/img24a.svg').m-auto
+          figure
+            img(src='@/assets/curso/tema2/img24a.svg').m-auto(data-aos="fade-up")
       .col-lg-11.d-block.d-lg-none
         .px-5.py-4
-          figure(data-aos="fade-up")
-            img(src='@/assets/curso/tema2/img24b.svg').m-auto
+          figure
+            img(src='@/assets/curso/tema2/img24b.svg').m-auto(data-aos="fade-up")
     .row.bg-c9.mb-5
       .col-12
         .px-5
@@ -316,7 +316,7 @@
     p A continuación, puede conocer algunas herramientas que permiten la accesibilidad:
     .tarjeta.tarjeta--azul1
       .p-4.p-lg-5
-        SlyderA(tipo="b")(data-aos="fade-up")
+        SlyderA(tipo="b")
           .row.align-items-center.m-1
             .col-lg-5.mb-4.mb-lg-0
               h4 SMIL

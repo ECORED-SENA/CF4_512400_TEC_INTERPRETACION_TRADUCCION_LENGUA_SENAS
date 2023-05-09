@@ -63,7 +63,7 @@
                 img(src='@/assets/curso/tema1/img6.png', style="width:650px").m-auto
     .row.mb-4
       .col-auto.bg-c5
-        h3.mb-0.py-2.px-5(data-aos="fade-right") Modalidades(data-aos="fade-up")
+        h3.mb-0.py-2.px-5(data-aos="fade-right") Modalidades
     p.mb-5(data-aos="fade-up") El término modalidad procede de la palabra modo, aunque también son sinónimos: manera y forma. Así que todo lo que se desarrolle bajo una determinada modalidad debe respetar ciertas reglas y mecanismos, por lo que no resulta espontáneo. Por modalidades se entiende el ámbito social o situacional en que se realiza el servicio de interpretación, algunas de estas son:
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-left")
       .tarjeta-avatar
@@ -141,10 +141,13 @@
           img(src='@/assets/curso/tema1/img10.svg', style="width:70px").m-auto
       .col
         p.mb-0 El proceso de interpretación se convierte en un problema cuando las tareas superan el límite individual de proceso de la información, y vienen diversas dificultades que hacen más arduo el proceso, en el siguiente video se exponen las más comunes.
-    figure.mb-5(data-aos="fade-up")
+
+
+    figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/k9mW_2S0g0M" title="Dificultades dentro del proceso de interpretación" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video. Dificultades dentro del proceso de interpretación.
+
     .row.mb-4
       .col-auto.bg-c5
         h3.mb-0.py-2.px-5(data-aos="fade-up") Protocolos de etiquetas
@@ -159,7 +162,7 @@
             .col
               p.mb-0 De acuerdo con Urbina (2001), el protocolo es: #[span.txt-c1 “aquella actividad determinadora de las formas bajo las cuales han de llevarse a cabo, del mejor modo posible, las relaciones del ser humano con sus semejantes”].
     p.txt-c2.mb-5(data-aos="fade-left") A continuación, se describen cada una de las clases de protocolos de etiquetas, se invita a revisarlas con atención.
-    .tarjeta.tarjeta--azul1.mb-5(data-aos="fade-up")
+    .tarjeta.tarjeta--azul1.mb-5
       .p-4.p-lg-5
         SlyderA(tipo="b")
           .row.align-items-center.m-1
@@ -222,19 +225,18 @@
         .cajon.color-primario.p-4.mb-4
           .row.align-items-center
             .col-12.col-lg-auto.mb-4.mb-lg-0
-              figure(data-aos="fade-up")
-                img(src='@/assets/curso/tema1/img15.svg', style="width:70px").m-auto
+              figure
+                img(src='@/assets/curso/tema1/img15.svg', style="width:70px").m-auto(data-aos="zoom-in")
             .col
               p.mb-0(data-aos="fade-up") Durante años diferentes instituciones y entidades del país han manifestado la necesidad de contar con un código de ética del intérprete de lengua de señas colombiana donde se demuestre el compromiso por cuidar y mantener comportamientos profesionales, saludables y humanos en la prestación del servicio.
         p(data-aos="fade-up") Hasta el día de hoy, dicho código está en construcción, sin embargo, es necesario enunciar algunos valores que puedan guiar la actitud y la conducta del intérprete para que a través de su trabajo, evite que se comprometa la integridad y la imagen del gremio, estimulando desde la ética, el respeto por los usuarios del servicio de interpretación tanto sordos como oyentes.
         p.txt-c2.mb-0(data-aos="fade-up") El código de ética del intérprete debe contemplar los siguientes aspectos:
       .col-lg-3
-        figure(data-aos="fade-up")
+        figure
           img(src='@/assets/curso/tema1/img16.svg', style="width:450px").m-auto
 
 
-
-    .tarjeta.tarjeta--azul1.mb-5(data-aos="fade-up")
+    .tarjeta.tarjeta--azul1.mb-5
       .p-4.p-lg-5
         SlyderA(tipo="b")
           .row.align-items-center.m-1
