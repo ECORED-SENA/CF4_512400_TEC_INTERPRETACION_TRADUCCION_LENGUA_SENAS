@@ -96,11 +96,11 @@ export default {
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
-      /*{
-        icono: 'far fa-file-pdf',
+      {
+        icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/anexo1.pdf',
-      },*/
+        download: 'downloads/512400_CF04_DU.pdf',
+      },
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
