@@ -211,7 +211,7 @@
                   h3.text-white.mb-1(data-aos="fade-up") Protocolo de servicio
                   p.text-small.text-white(data-aos="fade-up") Antes del evento, el día del evento y post-evento.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo1.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Protocolo_de_servicio.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 

@@ -54,7 +54,7 @@
                   h3.text-white.mb-1 Lineamientos normativos para interpretación, traducción y discapacidad
                   p.text-small.text-white Denominación y normativa.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo2.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Lineamientos_normativos_para_interpretacion_traduccion_y_discapacidad.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
     Separador
