@@ -42,6 +42,33 @@ export default {
         numero: '1',
         titulo: 'La interpretación',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '1.1',
+            titulo: 'Modelos',
+            hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Modalidades',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Técnicas',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Protocolos de etiquetas',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Código de ética del intérprete',
+            hash: 't_1_5',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
@@ -67,6 +94,28 @@ export default {
         numero: '3',
         titulo: 'Fundamentos lingüísticos, textuales y discursivos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Áreas interdisciplinarias de la lingüística',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Estructuras de la lingüística textual',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Análisis del discurso',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Tipología discursiva',
+            hash: 't_3_4',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -173,7 +222,7 @@ export default {
       referencia:
         'Rodríguez, M., y Velásquez, R. (2000). Historia y gramática de la lengua de señas. <em>Pedagogía y Saberes</em>, (14), 91-104.',
       link:
-        'https://doi.org/10.17227/01212494.14pys91.104. https://revistas.pedagogica.edu.co/index.php/PYS/article/view/6242',
+        'https://revistas.pedagogica.edu.co/index.php/PYS/article/view/6242',
     },
   ],
   glosario: [
@@ -188,7 +237,7 @@ export default {
         'resulta de la interacción entre las personas con deficiencias y las barreras debidas a la actitud y al entorno que evitan su participación plena y efectiva en la sociedad, en igualdad de condiciones con las demás.',
     },
     {
-      termino: 'Grupos minoritarios ',
+      termino: 'Grupos minoritarios',
       significado:
         'grupos étnicos, religiosos o lingüísticos, en menor número que el resto de la población. Los pueblos indígenas poseían tierras antes de ser invadidas y colonizadas (Acnur, Agencia de la ONU para los refugiados, 2020).',
     },
@@ -223,13 +272,14 @@ export default {
       referencia:
         'Congreso de Colombia. (2005). Ley 982 de 2005. Por la cual se establecen normas tendientes a la equiparación de oportunidades para las personas sordas y sordociegas y se dictan otras disposiciones. 2 de agosto de 2005. D.O. 45995.',
       tipo: 'PDF',
-      link: 'https://www.youtube.com/watch?v=-zCQNv_PM3M',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=17283#:~:text=El%20Gobierno%20Nacional%20instituir%C3%A1%20programas,comunidad%20de%20sordos%20y%20sordociegos.M',
     },
     {
       tema:
         'Lineamientos normativos de interpretación, traducción y discapacidad ',
       referencia:
-        'Congreso de Colombia. (2013). Ley Estatutaria 1618 de 2013. Por medio de la cual se establecen las disposiciones para garantizar el pleno ejercicio de los derechos de las personas con discapacidad. febrero 27 de 2013. D.O. 48.717.',
+        'Congreso de Colombia. (2013). Ley Estatutaria 1618 de 2013. Por medio de la cual se establecen las disposiciones para garantizar el pleno ejercicio de los derechos de las personas con discapacidad. Febrero 27 de 2013. D.O. 48.717.',
       tipo: 'PDF',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=52081',

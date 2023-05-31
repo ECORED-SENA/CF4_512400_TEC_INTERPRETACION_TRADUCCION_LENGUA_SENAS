@@ -42,7 +42,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema2/img2.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 El intérprete como mediador comunicativo y basado en su condición de ser biológico, psicológico y social, #[span.txt-c2 requiere poseer conocimientos legales que le permitan desempeñar su rol de manera óptima]. Con el fin de que estos respondan a las necesidades de los usuarios del servicio de interpretación, es imperativo que estén siempre fundamentados en una normatividad legal establecida por el estado y que a continuación se alista en orden cronológico.
+            p.mb-0 El intérprete como mediador comunicativo y basado en su condición de ser biológico, psicológico y social, #[span.txt-c2 requiere poseer conocimientos legales que le permitan desempeñar su rol de manera óptima]. Con el fin de que estos respondan a las necesidades de los usuarios del servicio de interpretación, es imperativo que estén siempre fundamentados en una normatividad legal establecida por el Estado y que a continuación se alista en orden cronológico.
         p.mb-4 En el siguiente documento, se exponen los #[span.txt-c2 principales lineamientos normativos para interpretación, traducción y discapacidad. Se invita a leerlo con atención].
         .tarjeta.color-primario1.p-3
           .row.justify-content-around.align-items-center
@@ -167,18 +167,18 @@
 
     .row.bg-c10.justify-content-center.mb-5(data-aos="fade-up")
       .col-lg-9
-        .px-5.py-4
+        .px-5
           ImagenInfograficaB.color-acento-botones.mb-5
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/tema2/img11.svg')
-            div(x="42%" y="45%" tooltip="Motores de búsqueda" numero="1")
+            div(x="42%" y="50%" tooltip="Motores de búsqueda" numero="1")
               h3 Motores de búsqueda
               p Son potentes programas de búsqueda que actúan automáticamente formando enormes bases de datos. Esta búsqueda se hace introduciendo palabras clave.  Por otra parte, resulta difícil encontrar información debido a la gran cantidad de ruido, es decir, resultados que no son del interés, o de silencios, cuando no se encuentran ningún tipo de resultados
-            div(x="41%" y="76%" tooltip="Índices" numero="2")
+            div(x="41%" y="78.5%" tooltip="Índices" numero="2")
               h3 Índices
               p La diferencia con los motores es que su base de datos se mantiene manualmente, es decir, que la información la incluyen los empleados o los internautas, por lo que es menos extensa.
-            div(x="66%" y="73%" tooltip="Sistemas mixtos" numero="3")
+            div(x="66%" y="75%" tooltip="Sistemas mixtos" numero="3")
               h3 Sistemas mixtos
               p Lo utilizan la mayoría de los buscadores hoy día y permite realizar la búsqueda tanto por palabras clave como por categorías. Algunos ejemplos de los buscadores más utilizados son:  www.google.com, www.yahoo.es, www.alltheweb.com, www.terra.es, www.msn.es, www.altavista.com, www.lycos.es, www.hispanista.com, entre otros.
     .row.mb-4

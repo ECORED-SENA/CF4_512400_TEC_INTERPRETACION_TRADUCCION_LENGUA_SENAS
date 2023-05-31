@@ -7,22 +7,20 @@
       .titulo-principal__numero
         span 1
       h1 La interpretación
-    .row.mb-5
-      .col-12.bg-c3
-        .p-4
-          .row
-            .col-lg-4.mb-4.mb-lg-0
-              figure
-                img(src='@/assets/curso/tema1/img1.png', style="width:350px").m-auto
-            .col-lg-8
-              p.mb-4 Goodman (1976) afirma que la interpretación puede hacerse de textos, de palabras, de ideas, de acontecimientos de la realidad, y puede expresarse a través del lenguaje oral o escrito, por medio de representaciones teatrales, de la música o de la danza. Los pintores, o los músicos, por ejemplo, interpretan la realidad o sus estados anímicos en sus obras. Cuando se interpreta un escrito o un discurso se puede hacer de modo literal u objetivo, atendiendo solo a las palabras expresadas, o de modo subjetivo intentando descubrir la real voluntad del emisor
-              .row
-                .col-12.p-4.bg-c4.shadow-lg
-                  p.mb-0 La historia de la interpretación es tan antigua como la humanidad misma. #[span.txt-c1 Desde siempre han existido comunidades lingüísticas que han tenido la necesidad de intercambiar productos, alimentos, entre otros, y para ello se valieron de personas que supieran ambas lenguas y que oficiaron de intérpretes]. La interpretación de las lenguas orales se reconoció como profesión a partir de la Primera Guerra Mundial, con anterioridad a esa fecha se hacían interpretaciones, pero no se exigía una calidad mínima.
-    .row.mb-4
-      .col-auto.bg-c5
-        h3.mb-0.py-2.px-5(data-aos="fade-up") Modelos
+
+    .row.bg-c3.p-4
+      .col-lg-4.mb-4.mb-lg-0
+        figure
+          img(src='@/assets/curso/tema1/img1.png', style="width:350px").m-auto
+      .col-lg-8
+        p.mb-4 Goodman (1976) afirma que la interpretación puede hacerse de textos, de palabras, de ideas, de acontecimientos de la realidad, y puede expresarse a través del lenguaje oral o escrito, por medio de representaciones teatrales, de la música o de la danza. Los pintores, o los músicos, por ejemplo, interpretan la realidad o sus estados anímicos en sus obras. Cuando se interpreta un escrito o un discurso se puede hacer de modo literal u objetivo, atendiendo solo a las palabras expresadas, o de modo subjetivo intentando descubrir la real voluntad del emisor
+        .p-4.bg-c4.shadow-lg
+          p.mb-0 La historia de la interpretación es tan antigua como la humanidad misma. #[span.txt-c1 Desde siempre han existido comunidades lingüísticas que han tenido la necesidad de intercambiar productos, alimentos, entre otros, y para ello se valieron de personas que supieran ambas lenguas y que oficiaron de intérpretes]. La interpretación de las lenguas orales se reconoció como profesión a partir de la Primera Guerra Mundial, con anterioridad a esa fecha se hacían interpretaciones, pero no se exigía una calidad mínima.
+    Separador 
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 1.1 Modelos
     p.mb-5(data-aos="fade-up") Para definir modos, características, requisitos, funciones y circunstancias presentes en la interpretación, además de la presencia física del intérprete, el cambio constante de código, los turnos de palabra, el número de participantes, entre otros, son algunos de los factores diferenciadores de una gama de posibilidades que determinan la dinámica de la interpretación. A continuación, se presentarán algunos modelos o tipos de interpretación, aunque no todos son comúnmente utilizados en el ejercicio de la lengua de señas.
+    p.txt-c2.mb-5(data-aos="fade-up") Modelos de interpretación    
     .tarjeta.tarjeta--azul.mb-5
       .p-4.p-lg-5
         SlyderA(tipo="b")(data-aos="fade-right")
@@ -61,9 +59,9 @@
             .col-lg-7
               figure
                 img(src='@/assets/curso/tema1/img6.png', style="width:650px").m-auto
-    .row.mb-4
-      .col-auto.bg-c5
-        h3.mb-0.py-2.px-5(data-aos="fade-right") Modalidades
+    Separador 
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 1.2 Modalidades
     p.mb-5(data-aos="fade-up") El término modalidad procede de la palabra modo, aunque también son sinónimos: manera y forma. Así que todo lo que se desarrolle bajo una determinada modalidad debe respetar ciertas reglas y mecanismos, por lo que no resulta espontáneo. Por modalidades se entiende el ámbito social o situacional en que se realiza el servicio de interpretación, algunas de estas son:
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-left")
       .tarjeta-avatar
@@ -108,9 +106,9 @@
           .p-4
             h2.text-center Medios de comunicación
             p Es un tipo de interpretación simultánea y suele ser muy estresante debido a las múltiples dificultades técnicas que pueden suscitarse y al alboroto que se produce en las salas de control cuando las transmisiones son en vivo. Ejemplo: noticieros, algunos asuntos políticos, olimpiadas.
-    .row.mb-4
-      .col-auto.bg-c5
-        h3.mb-0.py-2.px-5(data-aos="fade-up") Técnicas
+    Separador 
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 1.3 Técnicas
     p.mb-4(data-aos="fade-up") En el caso particular de la interpretación de Lengua de Señas a una lengua oral y viceversa, la modalidad condiciona los mecanismos que debe considerar el intérprete y varían dependiendo del tipo de interpretación que se realice, el momento de la interpretación, el desfase temporal entre el discurso original, la reformulación, el ritmo, el emisor, el receptor, las interrupciones (si las hay), la inmediatez o si la producción del discurso es paralela entre las lenguas o no.
     p.txt-c2.mb-5(data-aos="fade-up") Se presentan, a continuación, tres técnicas básicas de interpretación.
     .row.align-items-center.mb-5
@@ -148,9 +146,9 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/k9mW_2S0g0M" title="Dificultades dentro del proceso de interpretación" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video. Dificultades dentro del proceso de interpretación.
 
-    .row.mb-4
-      .col-auto.bg-c5
-        h3.mb-0.py-2.px-5(data-aos="fade-up") Protocolos de etiquetas
+    Separador 
+    #t_1_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 1.4 Protocolos de etiquetas
     p.mb-5(data-aos="fade-up") Para la mayoría de los intérpretes, la resolución de diferentes situaciones por las que atraviesan puede volverse un tema de sentido común o de experiencia laboral. El análisis de las situaciones críticas en el servicio de interpretación es fundamental para saber afrontar los encargos con responsabilidad y calidad.
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -217,9 +215,9 @@
                     span Descargar
                     i.fas.fa-file-download
 
-    .row.mb-5
-      .col-auto.bg-c5
-        h3.mb-0.py-2.px-5(data-aos="fade-up") Código de ética del intérprete
+    Separador 
+    #t_1_5.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 1.5 Código de ética del intérprete
     .row.mb-5
       .col-lg-9.mb-4.mb-lg-0
         .cajon.color-primario.p-4.mb-4
